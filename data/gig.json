@@ -8,7 +8,7 @@
       "basicPrice": 172,
       "basicDescription": "Basic hyper realistic pencil portrait",
       "standardPrice": 199,
-      "standardPriceDescription": "Standard hyper realistic pencil portrait",
+      "standardDescription": "Standard hyper realistic pencil portrait",
       "premiumPrice": 289,
       "premiumDescription": "Premium hyper realistic pencil portrait"
     },
@@ -85,7 +85,7 @@
       "basicPrice": 99,
       "basicDescription": "Basic hyper realistic pencil portrait",
       "standardPrice": 149,
-      "standardPriceDescription": "Standard hyper realistic pencil portrait",
+      "standardDescription": "Standard hyper realistic pencil portrait",
       "premiumPrice": 189,
       "premiumDescription": "Premium hyper realistic pencil portrait"
     },
@@ -161,7 +161,7 @@
       "basicPrice": 116,
       "basicDescription": "Basic sociology,psychology and social sciences articles",
       "standardPrice": 149,
-      "standardPriceDescription": "Standard sociology,psychology and social sciences articles",
+      "standardDescription": "Standard sociology,psychology and social sciences articles",
       "premiumPrice": 189,
       "premiumDescription": "Premium sociology,psychology and social sciences articles"
     },
@@ -231,7 +231,7 @@
       "basicPrice": 200,
       "basicDescription": "Basic hyper data entry, copy paste, web research as your VA",
       "standardPrice": 249,
-      "standardPriceDescription": "Standard hyper data entry, copy paste, web research as your VA",
+      "standardDescription": "Standard hyper data entry, copy paste, web research as your VA",
       "premiumPrice": 289,
       "premiumDescription": "Premium hyper data entry, copy paste, web research as your VA"
     },
@@ -307,7 +307,7 @@
       "basicPrice": 134,
       "basicDescription": "Basic data entry,web research and lead generation work in excel",
       "standardPrice": 149,
-      "standardPriceDescription": "Standard data entry,web research and lead generation work in excel",
+      "standardDescription": "Standard data entry,web research and lead generation work in excel",
       "premiumPrice": 189,
       "premiumDescription": "Premium data entry,web research and lead generation work in excel"
     },
@@ -383,7 +383,7 @@
       "basicPrice": 73,
       "basicDescription": "Basic data entry, copy paste and excel data entry work",
       "standardPrice": 149,
-      "standardPriceDescription": "Standard data entry, copy paste and excel data entry work",
+      "standardDescription": "Standard data entry, copy paste and excel data entry work",
       "premiumPrice": 189,
       "premiumDescription": "Premium data entry, copy paste and excel data entry work"
     },
@@ -459,7 +459,7 @@
       "basicPrice": 106,
       "basicDescription": "Basic excel data entry, copypaste, and any type of data",
       "standardPrice": 149,
-      "standardPriceDescription": "Standard excel data entry, copypaste, and any type of data",
+      "standardDescription": "Standard excel data entry, copypaste, and any type of data",
       "premiumPrice": 189,
       "premiumDescription": "Premium excel data entry, copypaste, and any type of data"
     },
@@ -535,7 +535,7 @@
       "basicPrice": 170,
       "basicDescription": "Basic design 3 modern minimalist flat logo designs",
       "standardPrice": 199,
-      "standardPriceDescription": "Standard design 3 modern minimalist flat logo designs",
+      "standardDescription": "Standard design 3 modern minimalist flat logo designs",
       "premiumPrice": 289,
       "premiumDescription": "Premium design 3 modern minimalist flat logo designs"
     },
@@ -612,7 +612,7 @@
       "basicPrice": 61,
       "basicDescription": "Basic modern unique and creative logo design",
       "standardPrice": 99,
-      "standardPriceDescription": "Standard modern unique and creative logo design",
+      "standardDescription": "Standard modern unique and creative logo design",
       "premiumPrice": 189,
       "premiumDescription": "Premium modern unique and creative logo design"
     },
@@ -688,7 +688,7 @@
       "basicPrice": 89,
       "basicDescription": "Basic design 3 modern minimalist logo design",
       "standardPrice": 139,
-      "standardPriceDescription": "Standard design 3 modern minimalist logo design",
+      "standardDescription": "Standard design 3 modern minimalist logo design",
       "premiumPrice": 159,
       "premiumDescription": "Premium design 3 modern minimalist logo design"
     },
