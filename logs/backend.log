@@ -1,0 +1,9 @@
+19.9.2022, 17:26:29 - INFO - Server is running on port: 3030 
+19.9.2022, 17:26:34 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 17:26:34 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 17:26:39 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 17:26:39 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 17:26:46 - DEBUG - auth.service - login with username: barak 
+19.9.2022, 17:26:47 - INFO - User login:  | {"_id":"632875c69f6886677c84dfdc","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100} 
+19.9.2022, 17:26:54 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 17:26:54 - DEBUG - gig.service: Finding Gigs 
