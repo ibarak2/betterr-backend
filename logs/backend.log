@@ -836,3 +836,6 @@
 19.9.2022, 0:27:04 - DEBUG - gig.service: Finding Gigs 
 19.9.2022, 0:27:14 - DEBUG - gig.controller: Getting Gigs 
 19.9.2022, 0:27:14 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 15:10:35 - INFO - Server is running on port: 3030 
+19.9.2022, 15:10:42 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 15:10:42 - DEBUG - gig.service: Finding Gigs 
