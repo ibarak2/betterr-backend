@@ -1,0 +1,43 @@
+[
+  {
+    "fullname": "Admin",
+    "imgUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/9ba6c31d9ab17b49428edbaa4e513b4d-1545993179609/6ce73d39-1230-48bd-ba40-d721ca8336b3.jpg",
+    "username": "admin",
+    "password": "admin",
+    "level": "basic/premium",
+    "balance": 1000,
+    "isAdmin": true
+  },
+  {
+    "fullname": "User 1",
+    "imgUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/3358886/original/profile.jpg",
+    "username": "user1",
+    "password": "user1",
+    "level": "basic/premium",
+    "balance": 100
+  },
+  {
+    "fullname": "user 2",
+    "imgUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/ed5d40bebd0c7aae9584f5528954fd50-1607943922666/d3648fb8-ee92-4300-97a6-9d33ad285970.jpg",
+    "username": "user2",
+    "password": "user2",
+    "level": "basic/premium",
+    "balance": 100
+  },
+  {
+    "fullname": "seller 1",
+    "imgUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/6616615/original/Yoed_Outdoors_158.jpg",
+    "username": "seller1",
+    "password": "seller1",
+    "level": "basic/premium",
+    "balance": 100
+  },
+  {
+    "fullname": "seller 2",
+    "imgUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/872fb61b000b18e488600e1a769675f1-1583836058695/e1c81c09-6e62-4f6d-88b4-207be0828543.jpg",
+    "username": "seller2",
+    "password": "seller2",
+    "level": "basic/premium",
+    "balance": 100
+  }
+]
