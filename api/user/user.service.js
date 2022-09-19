@@ -34,19 +34,20 @@ async function query(filterBy = {}) {
 
 async function getById(userId) {
     try {
+        logger.debug(`user.service: Getting user ${userId}`)
         const collection = await dbService.getCollection('user')
         const user = await collection.findOne({ _id: ObjectId(userId) })
         delete user.password
 
-        user.givenReviews = await reviewService.query({ byUserId: ObjectId(user._id) })
-        user.givenReviews = user.givenReviews.map(review => {
-            delete review.byUser
-            return review
-        })
+        // // user.givenReviews = await reviewService.query({ byUserId: ObjectId(user._id) })
+        // user.givenReviews = user.givenReviews.map(review => {
+        //     delete review.byUser
+        //     return review
+        // })
 
         return user
     } catch (err) {
-        logger.error(`while finding user by id: ${userId}`, err)
+        logger.error(`user.service:while finding user by id: ${userId}`, err)
         throw err
     }
 }
@@ -90,19 +91,19 @@ async function update(user) {
 
 async function add(user) {
     try {
-        // peek only updatable fields!
+        logger.debug('user.service: Adding new user.')
         const userToAdd = {
             username: user.username,
             password: user.password,
             fullname: user.fullname,
-            imgUrl: user.imgUrl,
-            score: 100
+            imgUrl: 'https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg',
+            balance: 100
         }
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToAdd)
         return userToAdd
     } catch (err) {
-        logger.error('cannot insert user', err)
+        logger.error('user.service: Cannot insert user', err)
         throw err
     }
 }
