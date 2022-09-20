@@ -97,6 +97,8 @@ async function add(user) {
             password: user.password,
             fullname: user.fullname,
             imgUrl: 'https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg',
+            level: 'basic',
+            rate: 5,
             balance: 100
         }
         const collection = await dbService.getCollection('user')
