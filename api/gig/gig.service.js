@@ -1,6 +1,8 @@
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
 const ObjectId = require('mongodb').ObjectId
+const asyncLocalStorage = require('../../services/als.service')
+
 
 async function query(filterBy) {
     try {
@@ -54,6 +56,14 @@ async function getById(gigId) {
 async function add(gig) {
     try {
         logger.debug('gig.service: Adding Gig')
+
+        const { loggedinUser } = asyncLocalStorage.getStore()
+        delete loggedinUser.balance
+        console.log('loggeinUser', loggedinUser);
+        gig.owner = { ...loggedinUser }
+        gig.reviews = []
+        gig.likedByUsers = []
+        console.log(gig);
 
         const collection = await dbService.getCollection('gig')
         const addedGig = await collection.insertOne(gig)
