@@ -5,6 +5,7 @@ const logger = require('../../services/logger.service')
 async function getUser(req, res) {
     try {
         const user = await userService.getById(req.params.id)
+        console.log("user", user);
         res.send(user)
     } catch (err) {
         logger.error('Failed to get user', err)
@@ -36,6 +37,7 @@ async function deleteUser(req, res) {
     }
 }
 
+
 async function updateUser(req, res) {
     try {
         const user = req.body
@@ -50,6 +52,6 @@ async function updateUser(req, res) {
 module.exports = {
     getUser,
     getUsers,
-    deleteUser,
-    updateUser
+    updateUser,
+    deleteUser
 }
