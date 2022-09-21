@@ -1539,6 +1539,7 @@
 20.9.2022, 23:34:38 - DEBUG - gig.service: Finding Gig 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 21.9.2022, 0:57:19 - DEBUG - gig.controller: Getting Gigs (userId: 632a101fe7b35d47644f714c)
 21.9.2022, 0:57:19 - DEBUG - gig.service: Finding Gigs (userId: 632a101fe7b35d47644f714c)
 21.9.2022, 1:03:38 - DEBUG - auth.service - login with username: user2 (userId: 632a101fe7b35d47644f714c)
@@ -1593,3 +1594,36 @@
 >>>>>>> 5f1eaaee87bc63ffc5c097dd748ce22d56ffa7b9
 >>>>>>> c2e313899285c6a8fbb642a8a461d95d76e21963
 21.9.2022, 11:42:36 - INFO - Server is running on port: 3030 
+=======
+>>>>>>> 5f1eaaee87bc63ffc5c097dd748ce22d56ffa7b9
+>>>>>>> c2e313899285c6a8fbb642a8a461d95d76e21963
+21.9.2022, 13:35:41 - INFO - Server is running on port: 3030 
+21.9.2022, 13:35:46 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:35:46 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:36:31 - DEBUG - gig.service: Adding Gig (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:36:35 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:36:35 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:37:03 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:37:03 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:38:24 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:38:24 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:38:55 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:38:55 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:39:15 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:39:15 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:55:54 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:55:54 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:55:56 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:55:56 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:55:57 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:55:57 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:56:02 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:56:02 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:56:02 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:56:02 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:56:02 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:56:02 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:56:05 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:56:05 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:56:17 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 13:56:17 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
