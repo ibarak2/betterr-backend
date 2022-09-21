@@ -4,7 +4,7 @@
     "password": "$2b$10$j3FGpVkkE7p/K5DGKN0lWuTZ7YwaO9JtrI28emTqApN/I7W0BRRJm",
     "fullname": "Admin",
     "imgUrl": "https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg",
-    "level": "basic",
+    "level": "premium",
     "rate": 5,
     "balance": 100,
     "isAdmin": true
