@@ -1627,3 +1627,4 @@
 21.9.2022, 13:56:05 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
 21.9.2022, 13:56:17 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
 21.9.2022, 13:56:17 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 16:13:19 - INFO - Server is running on port: 3030 
