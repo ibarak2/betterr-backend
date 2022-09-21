@@ -1541,7 +1541,10 @@
 20.9.2022, 23:34:38 - DEBUG - gig.service: Finding Gig 
 >>>>>>> 5f1eaaee87bc63ffc5c097dd748ce22d56ffa7b9
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c2e313899285c6a8fbb642a8a461d95d76e21963
 21.9.2022, 11:44:15 - INFO - Server is running on port: 3030 
+=======
+>>>>>>> c2e313899285c6a8fbb642a8a461d95d76e21963
 =======
 >>>>>>> c2e313899285c6a8fbb642a8a461d95d76e21963
