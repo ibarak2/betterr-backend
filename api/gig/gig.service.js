@@ -30,7 +30,12 @@ async function query(filterBy) {
         if (rate) {
             gigs = gigs.filter(gig => gig.rate >= rate)
         }
-
+        if (filterBy.owner) {
+            gigs = gigs.filter(gig => {
+                console.log(gig.owner.fullname === filterBy.owner)
+                return gig.owner.fullname === filterBy.owner})
+        }
+        console.log(gigs)
 
         return gigs
     } catch (err) {
