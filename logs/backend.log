@@ -837,6 +837,17 @@
 19.9.2022, 0:27:04 - DEBUG - gig.service: Finding Gigs 
 19.9.2022, 0:27:14 - DEBUG - gig.controller: Getting Gigs 
 19.9.2022, 0:27:14 - DEBUG - gig.service: Finding Gigs 
+<<<<<<< HEAD
+19.9.2022, 0:42:22 - INFO - Server is running on port: 3030 
+19.9.2022, 0:44:37 - DEBUG - gig.service: Adding Gig 
+19.9.2022, 0:44:46 - DEBUG - gig.service: Adding Gig 
+19.9.2022, 0:44:57 - DEBUG - gig.service: Adding Gig 
+19.9.2022, 0:44:59 - DEBUG - gig.service: Adding Gig 
+19.9.2022, 0:45:30 - DEBUG - gig.service: Adding Gig 
+19.9.2022, 0:46:33 - INFO - Server is running on port: 3030 
+19.9.2022, 1:21:19 - DEBUG - gig.controller: Getting Gigs (userId: 63208705c05c2a92fd2a3aeb)
+19.9.2022, 1:21:19 - DEBUG - gig.service: Finding Gigs (userId: 63208705c05c2a92fd2a3aeb)
+=======
 19.9.2022, 15:10:35 - INFO - Server is running on port: 3030 
 19.9.2022, 15:10:42 - DEBUG - gig.controller: Getting Gigs 
 19.9.2022, 15:10:42 - DEBUG - gig.service: Finding Gigs 
@@ -1040,6 +1051,200 @@
 20.9.2022, 23:52:57 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
 =======
 >>>>>>> 4e97daf4d3c2f03eefc0a718a72f955b2dbe4623
+<<<<<<< HEAD
+>>>>>>> 8755c1686bc75602a19d82d3d365fc41aa8c776a
+19.9.2022, 20:01:27 - INFO - Server is running on port: 3030 
+19.9.2022, 20:01:31 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:01:31 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:01:37 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:01:37 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:01:54 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:01:54 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:21 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:21 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:23 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:23 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:26 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:26 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:27 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:27 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:29 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:29 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:30 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:30 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:31 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:31 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:32 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:32 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:32 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:32 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:33 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:33 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 20:02:35 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 20:02:35 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 21:15:36 - INFO - Server is running on port: 3030 
+19.9.2022, 21:15:57 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 21:15:57 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 22:52:50 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 22:52:50 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 22:59:43 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 22:59:43 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 23:00:15 - DEBUG - gig.service: Finding Gig 
+19.9.2022, 23:00:57 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 23:00:57 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 23:01:09 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 23:01:09 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 23:01:49 - DEBUG - auth.service - signup with username: puki, fullname: puki 
+19.9.2022, 23:01:49 - DEBUG - user.service: Adding new user. 
+19.9.2022, 23:01:49 - DEBUG - auth.route - new account created: {"username":"puki","password":"$2b$10$baLTuRt2PD31WSgrezF4f.RNIMurgie8Y5lz3zfC2fhynFGa9io3y","fullname":"puki","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"_id":"6328caadfe0eef37fc18f0da"} 
+19.9.2022, 23:01:49 - DEBUG - auth.service - login with username: puki 
+19.9.2022, 23:01:49 - INFO - User signup: | {"_id":"6328caadfe0eef37fc18f0da","username":"puki","fullname":"puki","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100} 
+19.9.2022, 23:02:24 - DEBUG - gig.controller: Getting Gigs 
+19.9.2022, 23:02:24 - DEBUG - gig.service: Finding Gigs 
+19.9.2022, 23:29:48 - INFO - Server is running on port: 3030 
+20.9.2022, 12:19:22 - INFO - Server is running on port: 3030 
+20.9.2022, 17:27:12 - INFO - Server is running on port: 3030 
+20.9.2022, 17:27:18 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:27:18 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:27:57 - DEBUG - auth.service - login with username: puki 
+20.9.2022, 17:27:57 - INFO - User login:  | {"_id":"6328caadfe0eef37fc18f0da","username":"puki","fullname":"puki","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100} 
+20.9.2022, 17:52:30 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:52:30 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:52:31 - DEBUG - gig.service: Finding Gig 
+20.9.2022, 17:53:32 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:32 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:35 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:35 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:36 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:36 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:38 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:38 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:40 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:40 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:41 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:41 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:41 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:41 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:42 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:42 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:42 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:42 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:42 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:42 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:43 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:43 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:44 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:44 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:46 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:46 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 17:53:47 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 17:53:47 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:06:09 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:06:09 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:06:23 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:06:23 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:06:26 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:06:26 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:07:12 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:07:12 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:08:43 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:08:43 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:08:48 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:08:48 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:40 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:40 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:41 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:41 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:41 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:41 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:46 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:46 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:47 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:47 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:50 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:50 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:50 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:50 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:51 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:51 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:52 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:52 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:52 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:52 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:53 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:53 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:56 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:56 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:18:57 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:18:57 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:19:00 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:19:00 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:19:01 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:19:01 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:19:02 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:19:02 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:19:03 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:19:03 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:19:04 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:19:04 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:19:05 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:19:05 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:19:06 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:19:06 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:19:07 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:19:07 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:19:21 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:19:21 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:20:07 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:20:07 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:20:28 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:20:28 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:21:58 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:21:58 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:45:06 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:45:06 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:45:07 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:45:07 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:45:08 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:45:08 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 18:45:08 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 18:45:08 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 21:21:04 - INFO - Server is running on port: 3030 
+20.9.2022, 22:05:51 - DEBUG - auth.service - login with username: puki 
+20.9.2022, 22:05:51 - INFO - User login:  | {"_id":"6328caadfe0eef37fc18f0da","username":"puki","fullname":"puki","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100} 
+20.9.2022, 22:06:54 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 22:06:54 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 22:09:54 - DEBUG - auth.service - login with username: puki 
+20.9.2022, 22:09:54 - INFO - User login:  | {"_id":"6328caadfe0eef37fc18f0da","username":"puki","fullname":"puki","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100} 
+20.9.2022, 22:10:04 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 22:10:04 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 22:10:13 - DEBUG - auth.service - login with username: puki 
+20.9.2022, 22:10:13 - INFO - User login:  | {"_id":"6328caadfe0eef37fc18f0da","username":"puki","fullname":"puki","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100} 
+20.9.2022, 22:18:03 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 22:18:03 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 22:18:04 - DEBUG - gig.service: Finding Gig 
+20.9.2022, 22:26:03 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 22:26:03 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 22:26:37 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 22:26:37 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 22:26:40 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 22:26:40 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 22:26:41 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 22:26:41 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 22:26:42 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 22:26:42 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 22:26:43 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 22:26:43 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 22:27:04 - DEBUG - gig.service: Finding Gig 
+20.9.2022, 23:25:59 - DEBUG - gig.controller: Getting Gigs 
+20.9.2022, 23:25:59 - DEBUG - gig.service: Finding Gigs 
+20.9.2022, 23:26:07 - DEBUG - auth.service - login with username: puki 
+20.9.2022, 23:26:07 - INFO - User login:  | {"_id":"6328caadfe0eef37fc18f0da","username":"puki","fullname":"puki","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100} 
+21.9.2022, 0:07:16 - DEBUG - gig.controller: Getting Gigs 
+21.9.2022, 0:07:16 - DEBUG - gig.service: Finding Gigs 
+21.9.2022, 0:11:10 - DEBUG - auth.service - login with username: puki 
+21.9.2022, 0:11:10 - INFO - User login:  | {"_id":"6328caadfe0eef37fc18f0da","username":"puki","fullname":"puki","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100} 
+=======
 19.9.2022, 18:41:14 - INFO - Server is running on port: 3030 
 20.9.2022, 16:04:05 - INFO - Server is running on port: 3030 
 20.9.2022, 16:16:13 - INFO - Server is running on port: 3030 
@@ -1332,6 +1537,7 @@
 20.9.2022, 23:34:37 - DEBUG - gig.controller: Getting Gigs 
 20.9.2022, 23:34:37 - DEBUG - gig.service: Finding Gigs 
 20.9.2022, 23:34:38 - DEBUG - gig.service: Finding Gig 
+<<<<<<< HEAD
 21.9.2022, 0:57:19 - DEBUG - gig.controller: Getting Gigs (userId: 632a101fe7b35d47644f714c)
 21.9.2022, 0:57:19 - DEBUG - gig.service: Finding Gigs (userId: 632a101fe7b35d47644f714c)
 21.9.2022, 1:03:38 - DEBUG - auth.service - login with username: user2 (userId: 632a101fe7b35d47644f714c)
@@ -1377,3 +1583,8 @@
 21.9.2022, 11:37:10 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
 21.9.2022, 11:37:45 - DEBUG - gig.service: Finding Gig (userId: 632a4a2d0618b7023ab7af86)
 21.9.2022, 11:38:58 - DEBUG - gig.service: Finding Gig (userId: 632a4a2d0618b7023ab7af86)
+=======
+>>>>>>> 5f1eaaee87bc63ffc5c097dd748ce22d56ffa7b9
+>>>>>>> c2e313899285c6a8fbb642a8a461d95d76e21963
+21.9.2022, 11:40:03 - INFO - Server is running on port: 3030 
+21.9.2022, 11:40:55 - INFO - Server is running on port: 3030 
