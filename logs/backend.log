@@ -1332,3 +1332,48 @@
 20.9.2022, 23:34:37 - DEBUG - gig.controller: Getting Gigs 
 20.9.2022, 23:34:37 - DEBUG - gig.service: Finding Gigs 
 20.9.2022, 23:34:38 - DEBUG - gig.service: Finding Gig 
+21.9.2022, 0:57:19 - DEBUG - gig.controller: Getting Gigs (userId: 632a101fe7b35d47644f714c)
+21.9.2022, 0:57:19 - DEBUG - gig.service: Finding Gigs (userId: 632a101fe7b35d47644f714c)
+21.9.2022, 1:03:38 - DEBUG - auth.service - login with username: user2 (userId: 632a101fe7b35d47644f714c)
+21.9.2022, 1:03:38 - ERROR - auth.controller: Failed to Login Invalid username or password (userId: 632a101fe7b35d47644f714c)
+21.9.2022, 1:03:58 - DEBUG - auth.service - signup with username: user99, fullname: user99 (userId: 632a101fe7b35d47644f714c)
+21.9.2022, 1:03:58 - DEBUG - user.service: Adding new user. (userId: 632a101fe7b35d47644f714c)
+21.9.2022, 1:03:58 - DEBUG - auth.route - new account created: {"username":"user99","password":"$2b$10$1mFWauuDa0GqvPky0Xz7E.m3gJCFSh7lukkEmCZ2lEqzt9gtP4scS","fullname":"user99","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100,"_id":"632a38ce7a68e33f249572c6"} (userId: 632a101fe7b35d47644f714c)
+21.9.2022, 1:03:58 - DEBUG - auth.service - login with username: user99 (userId: 632a101fe7b35d47644f714c)
+21.9.2022, 1:03:58 - INFO - User signup: | {"_id":"632a38ce7a68e33f249572c6","username":"user99","fullname":"user99","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} (userId: 632a101fe7b35d47644f714c)
+21.9.2022, 1:40:14 - DEBUG - gig.service: Adding Gig (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 1:40:56 - DEBUG - gig.service: Adding Gig (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 1:41:11 - DEBUG - gig.service: Adding Gig (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 1:42:31 - DEBUG - gig.controller: Getting Gigs (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 1:42:31 - DEBUG - gig.service: Finding Gigs (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 1:45:16 - DEBUG - gig.controller: Getting Gigs (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 1:45:16 - DEBUG - gig.service: Finding Gigs (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 1:52:03 - DEBUG - gig.service: Adding Gig (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 1:52:18 - DEBUG - gig.controller: Getting Gigs (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 1:52:18 - DEBUG - gig.service: Finding Gigs (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 2:28:10 - INFO - Server is running on port: 3030 
+21.9.2022, 2:31:50 - DEBUG - auth.service - login with username: roy 
+21.9.2022, 2:31:50 - ERROR - auth.controller: Failed to Login Invalid username or password 
+21.9.2022, 2:32:54 - DEBUG - auth.service - signup with username: cat, fullname: cat (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 2:32:54 - DEBUG - user.service: Adding new user. (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 2:32:54 - DEBUG - auth.route - new account created: {"username":"cat","password":"$2b$10$OnGpVoCFUB9GhzI/8fdbE.hbvOxKal9VSXHVLx/aEzNyoGhYveuqO","fullname":"cat","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100,"_id":"632a4da67ba2cb0b9c7ec404"} (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 2:32:54 - DEBUG - auth.service - login with username: cat (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 2:32:54 - INFO - User signup: | {"_id":"632a4da67ba2cb0b9c7ec404","username":"cat","fullname":"cat","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} (userId: 632a38ce7a68e33f249572c6)
+21.9.2022, 2:39:56 - INFO - Server is running on port: 3030 
+21.9.2022, 2:40:08 - DEBUG - auth.service - login with username: roy (userId: 632a4da67ba2cb0b9c7ec404)
+21.9.2022, 2:40:08 - ERROR - auth.controller: Failed to Login Invalid username or password (userId: 632a4da67ba2cb0b9c7ec404)
+21.9.2022, 2:41:26 - DEBUG - auth.service - signup with username: roy, fullname: roy (userId: 632a4da67ba2cb0b9c7ec404)
+21.9.2022, 2:41:26 - ERROR - auth.controller: Failed to signup Username already taken (userId: 632a4da67ba2cb0b9c7ec404)
+21.9.2022, 11:17:03 - INFO - Server is running on port: 3030 
+21.9.2022, 11:35:43 - DEBUG - auth.service - signup with username: null, fullname: null (userId: 632a4da67ba2cb0b9c7ec404)
+21.9.2022, 11:35:43 - DEBUG - user.service: Adding new user. (userId: 632a4da67ba2cb0b9c7ec404)
+21.9.2022, 11:35:43 - DEBUG - auth.route - new account created: {"username":"null","password":"$2b$10$UxvSgGwh98Xpfyh3HVLmnu51uR/Ka35soNbmivQ5kWJ3sQF0GMPAK","fullname":"null","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100,"_id":"632accdf65343739705733f6"} (userId: 632a4da67ba2cb0b9c7ec404)
+21.9.2022, 11:35:43 - DEBUG - auth.service - login with username: null (userId: 632a4da67ba2cb0b9c7ec404)
+21.9.2022, 11:35:43 - INFO - User signup: | {"_id":"632accdf65343739705733f6","username":"null","fullname":"null","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} (userId: 632a4da67ba2cb0b9c7ec404)
+21.9.2022, 11:35:54 - DEBUG - auth.service - login with username: user1 (userId: 632accdf65343739705733f6)
+21.9.2022, 11:35:54 - INFO - User login:  | {"_id":"632a4a2d0618b7023ab7af86","username":"user1","fullname":"User 1","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} (userId: 632accdf65343739705733f6)
+21.9.2022, 11:36:53 - DEBUG - gig.service: Adding Gig (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 11:37:10 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 11:37:10 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 11:37:45 - DEBUG - gig.service: Finding Gig (userId: 632a4a2d0618b7023ab7af86)
+21.9.2022, 11:38:58 - DEBUG - gig.service: Finding Gig (userId: 632a4a2d0618b7023ab7af86)
