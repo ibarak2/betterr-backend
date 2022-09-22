@@ -64,6 +64,21 @@ async function removeGig(req, res) {
     }
 }
 
+// Get Gigs by owner
+async function getGigsByOwner(req, res) {
+    try {
+        logger.debug('gig.controller: Getting Gigs')
+        let filterBy = JSON.parse(req.query.params)
+
+        console.log("filterBy:", filterBy)
+        const gigs = await gigService.query(filterBy)
+        res.json(gigs)
+    } catch (err) {
+        logger.error('gig.controller: Failed to get gigs', err)
+        res.status(500).send({ err: 'Failed to get gigs' })
+    }
+}
+
 async function addReview(req, res) {
     try {
         const gigId = req.params.id
