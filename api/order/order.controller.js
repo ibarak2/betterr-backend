@@ -5,7 +5,7 @@ const logger = require('../../services/logger.service')
 async function getOrdersById(req, res) {
     try {
         const isBuyer = JSON.parse(req.query.params)
-        const orders = await orderService.queryById(isBuyer)
+        const orders = await orderService.queryByRole(isBuyer)
         res.json(orders)
     } catch (err) {
         logger.error('order.controller: Failed to get orders', err)

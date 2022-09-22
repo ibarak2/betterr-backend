@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 18.9.2022, 17:47:43 - DEBUG - gig.controller: Getting Gigs 
 18.9.2022, 17:47:43 - DEBUG - gig.service: Finding Gigs 
 18.9.2022, 17:47:43 - ERROR - gig.service: Cannot find gigs:  | TypeError: Cannot destructure property 'maxPrice' of 'filterBy' as it is undefined. 
@@ -2585,3 +2586,6 @@
 22.9.2022, 14:46:13 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af92)
 22.9.2022, 15:00:42 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
 22.9.2022, 15:00:42 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+=======
+>>>>>>> 919255bbaedeb074bc7526ac966a62106d07267e
+22.9.2022, 15:01:09 - INFO - Server is running on port: 3030 
