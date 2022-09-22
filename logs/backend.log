@@ -2473,3 +2473,115 @@
 22.9.2022, 13:34:54 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af92","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"basic","rate":5,"balance":100,"isAdmin":true} 
 22.9.2022, 13:35:00 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
 22.9.2022, 13:35:00 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:38:38 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:38:38 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:39:17 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:39:17 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:39:33 - DEBUG - auth.service - login with username: barak (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:39:33 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af94","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png","balance":100,"level":"premium","rate":5,"isAdmin":true} (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:39:45 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:39:50 - DEBUG - {"seller":{"_id":"632a4a2d0618b7023ab7af8a","fullname":"Roy Yam"},"buyer":{"_id":"632c3a430618b7023ab7af94","fullname":"Barak Kaldess"},"gig":{"_id":"632b7c09f056be2278a79627","title":"make any drawing for you ","daysToMake":7,"price":420,"plan":"full blown masterpiece"},"status":"pending","createdAt":1663843190411} (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:40:27 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 13:40:27 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 13:40:28 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 13:40:28 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 13:40:32 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 13:40:32 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af92","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"basic","rate":5,"balance":100,"isAdmin":true} 
+22.9.2022, 13:40:59 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:40:59 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:41:03 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:41:05 - DEBUG - {"seller":{"_id":"632a4a2d0618b7023ab7af8a","fullname":"Roy Yam"},"buyer":{"_id":"632c3a430618b7023ab7af94","fullname":"Barak Kaldess"},"gig":{"_id":"632b7c09f056be2278a79627","title":"make any drawing for you ","daysToMake":1,"price":7,"plan":"lineart"},"status":"pending","createdAt":1663843265424} (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:41:27 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:41:27 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:41:31 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:41:31 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:41:38 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:41:40 - DEBUG - {"seller":{"_id":"632a4a2d0618b7023ab7af8a","fullname":"Roy Yam"},"buyer":{"_id":"632c3a430618b7023ab7af94","fullname":"Barak Kaldess"},"gig":{"_id":"632b7c09f056be2278a79627","title":"make any drawing for you ","daysToMake":1,"price":7,"plan":"lineart"},"status":"pending","createdAt":1663843300012} (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:43:18 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 13:43:18 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 13:43:19 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 13:43:19 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 13:43:25 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 13:43:25 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af94","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 13:43:44 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:43:44 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:44:09 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 13:44:09 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 13:44:09 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 13:44:09 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 13:44:15 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 13:44:16 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af92","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"basic","rate":5,"balance":100,"isAdmin":true} 
+22.9.2022, 13:44:21 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:44:21 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:45:36 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:45:36 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:45:37 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:45:37 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:45:55 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:45:55 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:46:02 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:46:02 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:50:14 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:50:14 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:50:14 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:50:14 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:51:08 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:51:08 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:51:33 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:51:33 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:52:45 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 13:52:45 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 13:52:53 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 13:52:53 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 13:53:00 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 13:53:00 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af92","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"basic","rate":5,"balance":100,"isAdmin":true} 
+22.9.2022, 13:53:03 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:53:03 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:53:07 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:53:07 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:54:10 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:54:10 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:54:11 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:54:11 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:58:58 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:58:58 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:58:59 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:58:59 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:59:10 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:59:10 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:59:10 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:59:10 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 13:59:16 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 13:59:16 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 14:00:53 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:00:53 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:00:54 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 14:00:54 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 14:06:09 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:06:09 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:06:11 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:08:58 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:08:58 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:09:00 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:14:14 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:14:14 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:14:19 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:14:19 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:17:45 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:17:45 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:17:46 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:25:02 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 14:25:02 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 14:26:31 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:26:31 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:37:18 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:37:18 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:40:23 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:43:44 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:43:47 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 14:43:47 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 14:43:47 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:43:47 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 14:46:13 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 15:00:42 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:00:42 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
