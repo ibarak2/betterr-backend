@@ -58,7 +58,6 @@ async function updateStatus(orderId, newStatus) {
     try {
         const collection = await dbService.getCollection('order')
         const updatedOrder = await collection.findOneAndUpdate({ _id: ObjectId(orderId) }, { $set: { status: newStatus } }, { returnDocument: 'after' })
-        console.log("updatedOrder", updatedOrder);
         return updatedOrder.value
     } catch (err) {
         logger.error('order.service: Cannot update Order status', err)
