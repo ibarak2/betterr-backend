@@ -110,11 +110,28 @@ async function remove(gigId) {
     }
 }
 
+async function updateReview(gigId, review) {
+    try {
+
+        const id = ObjectId(gigId)
+        review.createdAt = Date.now()
+
+        const collection = await dbService.getCollection('gig')
+        await collection.updateOne({ _id: id }, { $push: { reviews: review } })
+
+        return review
+    } catch (err) {
+        logger.error(`gig.service: Cannot update gig ${gigId}: `, err)
+        throw err
+    }
+}
+
 
 module.exports = {
     query,
     remove,
     getById,
     add,
-    update
+    update,
+    updateReview
 }

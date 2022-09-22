@@ -274,32 +274,28 @@
         "txt": "I requested a slightly earlier delivery on this and once again he came through and provided a fantastic delivery. Thanks so much!",
         "rate": 5,
         "imgUrl": "https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1ec-1f1e7.png",
-        "createdAt": 1653368332964,
-        "reviewedAt": "Published 3 weeks ago"
+        "createdAt": 1653368332964
       },
       {
         "fullname": "Ariel Mizrahi",
         "txt": "My team-mates and I are always know who we should contact when we are in trouble, incredible job",
         "rate": 5,
         "imgUrl": "https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1ec-1f1e7.png",
-        "createdAt": 1660368332964,
-        "reviewedAt": "Published 3 weeks ago"
+        "createdAt": 1660368332964
       },
       {
         "fullname": "Peleg Az Ari",
         "txt": "Very detailed and accurate!",
         "rate": 5,
         "imgUrl": "https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png",
-        "createdAt": 1652368332964,
-        "reviewedAt": "Published 1 week ago"
+        "createdAt": 1652368332964
       },
       {
         "fullname": "Olivia Rodrigo",
         "txt": "very nice job, never dissapointed.",
         "rate": 4,
         "imgUrl": "https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png",
-        "createdAt": 1642368332964,
-        "reviewedAt": "Published 2 weeks ago"
+        "createdAt": 1642368332964
       }
     ]
   },

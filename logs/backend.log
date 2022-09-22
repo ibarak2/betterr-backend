@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 18.9.2022, 17:47:43 - DEBUG - gig.controller: Getting Gigs 
 18.9.2022, 17:47:43 - DEBUG - gig.service: Finding Gigs 
 18.9.2022, 17:47:43 - ERROR - gig.service: Cannot find gigs:  | TypeError: Cannot destructure property 'maxPrice' of 'filterBy' as it is undefined. 
@@ -2138,3 +2139,294 @@
 22.9.2022, 13:07:51 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af8a)
 22.9.2022, 13:14:20 - DEBUG - gig.controller: Getting Gigs (userId: 632a4a2d0618b7023ab7af8a)
 22.9.2022, 13:14:20 - DEBUG - gig.service: Finding Gigs (userId: 632a4a2d0618b7023ab7af8a)
+=======
+21.9.2022, 20:40:20 - INFO - Server is running on port: 3030 
+21.9.2022, 20:54:37 - INFO - Server is running on port: 3030 
+21.9.2022, 20:55:49 - INFO - Server is running on port: 3030 
+21.9.2022, 20:55:56 - INFO - Server is running on port: 3030 
+21.9.2022, 20:56:06 - INFO - Server is running on port: 3030 
+21.9.2022, 21:09:55 - INFO - Server is running on port: 3030 
+21.9.2022, 22:30:49 - INFO - Server is running on port: 3030 
+21.9.2022, 22:40:33 - ERROR - order.controller: Failed to get orders | TypeError: orderService.query is not a function (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:40:33 - ERROR - order.controller: Failed to get orders | TypeError: orderService.query is not a function (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:43:40 - DEBUG - gig.controller: Getting Gigs (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:43:40 - DEBUG - gig.service: Finding Gigs (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:43:41 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:43:52 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:44:01 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:45:18 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:45:28 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:49:50 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:50:02 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:51:03 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:53:58 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:54:00 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:54:20 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:57:03 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:58:42 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:58:54 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 22:59:01 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:00:26 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:03:03 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:03:15 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:05:16 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:07:06 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:07:43 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:11:22 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:11:36 - DEBUG - auth.service - login with username: barak 
+21.9.2022, 23:11:36 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+21.9.2022, 23:23:10 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:25:22 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:29:49 - INFO - Server is running on port: 3030 
+21.9.2022, 23:29:58 - ERROR - order.controller: Failed to add orders | TypeError: orderService.add is not a function (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:31:14 - DEBUG - auth.service - login with username: roy 
+21.9.2022, 23:31:14 - INFO - User login:  | {"_id":"632a1f320ac66f916470c2e6","username":"roy","fullname":"Roy Yam","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} 
+21.9.2022, 23:32:40 - DEBUG - gig.service: Adding Gig (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:32:43 - DEBUG - gig.service: Finding Gigs (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:32:43 - DEBUG - gig.controller: Getting Gigs (userId: 632a1f320ac66f916470c2e6)
+21.9.2022, 23:32:54 - DEBUG - auth.service - login with username: barak 
+21.9.2022, 23:32:54 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+21.9.2022, 23:32:55 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:32:57 - ERROR - order.controller: Failed to add orders | TypeError: orderService.add is not a function (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:33:45 - ERROR - order.controller: Failed to add orders | TypeError: orderService.add is not a function (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:34:36 - INFO - Server is running on port: 3030 
+21.9.2022, 23:34:51 - ERROR - order.controller: Failed to add orders | TypeError: orderService.add is not a function (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:35:30 - INFO - Server is running on port: 3030 
+21.9.2022, 23:35:43 - DEBUG - {"sellerId":"632a1f320ac66f916470c2e6","buyerId":"632a1e4e63fb20522c12ccaf","gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":1,"price":33,"plan":"basic tattoo"},"status":"pending","createdAt":1663792543354} (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:36:02 - INFO - Server is running on port: 3030 
+21.9.2022, 23:43:52 - INFO - Server is running on port: 3030 
+21.9.2022, 23:44:06 - INFO - Server is running on port: 3030 
+21.9.2022, 23:49:40 - INFO - Server is running on port: 3030 
+21.9.2022, 23:50:54 - ERROR - order.controller: Failed to get orders | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:51:42 - INFO - Server is running on port: 3030 
+21.9.2022, 23:52:00 - INFO - Server is running on port: 3030 
+21.9.2022, 23:52:20 - ERROR - order.controller: Failed to get orders | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:54:36 - INFO - Server is running on port: 3030 
+21.9.2022, 23:54:42 - ERROR - order.controller: Failed to get orders | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle (userId: 632a1e4e63fb20522c12ccaf)
+21.9.2022, 23:56:02 - INFO - Server is running on port: 3030 
+22.9.2022, 0:00:53 - INFO - Server is running on port: 3030 
+22.9.2022, 0:06:26 - INFO - Server is running on port: 3030 
+22.9.2022, 0:06:56 - INFO - Server is running on port: 3030 
+22.9.2022, 0:09:42 - INFO - Server is running on port: 3030 
+22.9.2022, 0:09:56 - INFO - Server is running on port: 3030 
+22.9.2022, 0:11:08 - INFO - Server is running on port: 3030 
+22.9.2022, 0:11:15 - INFO - Server is running on port: 3030 
+22.9.2022, 0:12:16 - INFO - Server is running on port: 3030 
+22.9.2022, 0:12:34 - INFO - Server is running on port: 3030 
+22.9.2022, 0:14:00 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 0:14:00 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:06:53 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:06:53 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:12:36 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:12:36 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:12:42 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:12:42 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:13:48 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:13:48 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:13:55 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:13:55 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:24:45 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:24:45 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:25:59 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:25:59 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:32:32 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:32:32 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 1:56:52 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 1:56:52 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 1:56:53 - DEBUG - gig.service: Finding Gig 
+22.9.2022, 1:57:43 - DEBUG - gig.service: Finding Gig 
+22.9.2022, 2:00:47 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 2:00:47 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 2:00:48 - DEBUG - gig.service: Finding Gig 
+22.9.2022, 2:02:48 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 2:02:48 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 2:02:50 - DEBUG - gig.service: Finding Gig 
+22.9.2022, 2:25:13 - INFO - Server is running on port: 3030 
+22.9.2022, 2:29:49 - INFO - Server is running on port: 3030 
+22.9.2022, 2:30:31 - INFO - Server is running on port: 3030 
+22.9.2022, 2:36:38 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 2:36:38 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 2:36:39 - DEBUG - gig.service: Finding Gig 
+22.9.2022, 2:39:50 - DEBUG - gig.service: Finding Gig 
+22.9.2022, 2:40:06 - INFO - Server is running on port: 3030 
+22.9.2022, 2:40:22 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 2:40:22 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 2:42:54 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:42:57 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:43:34 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:43:40 - ERROR - gig.service: Cannot update gig 632b2f48add67fcaad7dd2e9:  | ReferenceError: gig is not defined (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:43:40 - ERROR - gig.controller: Failed to update gig review | ReferenceError: gig is not defined (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:44:23 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:44:26 - ERROR - gig.service: Cannot update gig 632b2f48add67fcaad7dd2e9:  | ReferenceError: gig is not defined (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:44:26 - ERROR - gig.controller: Failed to update gig review | ReferenceError: gig is not defined (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:46:04 - INFO - Server is running on port: 3030 
+22.9.2022, 2:46:08 - INFO - Server is running on port: 3030 
+22.9.2022, 2:46:15 - ERROR - gig.service: Cannot update gig 632b2f48add67fcaad7dd2e9:  | ReferenceError: gig is not defined (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:46:15 - ERROR - gig.controller: Failed to update gig review | ReferenceError: gig is not defined (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:49:36 - INFO - Server is running on port: 3030 
+22.9.2022, 2:50:04 - INFO - Server is running on port: 3030 
+22.9.2022, 2:50:06 - ERROR - gig.service: Cannot update gig 632b2f48add67fcaad7dd2e9:  | TypeError: collection.updateOne(...).toArray is not a function (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:50:06 - ERROR - gig.controller: Failed to update gig review | TypeError: collection.updateOne(...).toArray is not a function (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:50:28 - INFO - Server is running on port: 3030 
+22.9.2022, 2:51:03 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:52:05 - INFO - Server is running on port: 3030 
+22.9.2022, 2:52:12 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:52:40 - INFO - Server is running on port: 3030 
+22.9.2022, 2:56:05 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 2:57:22 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:02:17 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:02:33 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:05:06 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:05:06 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:05:06 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:05:39 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:05:58 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:06:19 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:06:57 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:07:14 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:08:57 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:09:29 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:09:54 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:10:08 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:11:00 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:11:03 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:11:08 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:11:12 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:11:18 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:12:01 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:12:10 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:12:15 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:12:34 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:12:38 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:14:01 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:17:04 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:18:32 - INFO - Server is running on port: 3030 
+22.9.2022, 3:18:47 - INFO - Server is running on port: 3030 
+22.9.2022, 3:19:34 - INFO - Server is running on port: 3030 
+22.9.2022, 3:19:40 - INFO - Server is running on port: 3030 
+22.9.2022, 3:19:53 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:20:29 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:21:25 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:21:25 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:21:25 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:22:05 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:22:10 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:22:20 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:23:34 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:24:12 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:24:16 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:24:18 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:24:18 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:24:19 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:24:35 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:25:08 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:25:30 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:25:35 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:25:37 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:26:13 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:26:27 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:26:29 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:27:01 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:28:14 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:28:15 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:28:22 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:28:55 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:29:06 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:29:15 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:29:39 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:29:39 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:29:46 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:29:56 - DEBUG - gig.service: Finding Gig 
+22.9.2022, 3:30:52 - DEBUG - gig.service: Finding Gig 
+22.9.2022, 3:30:55 - DEBUG - gig.service: Finding Gig 
+22.9.2022, 3:31:06 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 3:31:06 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 3:33:39 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:47:39 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 3:47:39 - INFO - User login:  | {"_id":"632a1f320ac66f916470c2e6","username":"roy","fullname":"Roy Yam","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} 
+22.9.2022, 3:48:05 - DEBUG - gig.controller: Getting Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 3:48:05 - DEBUG - gig.service: Finding Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 3:48:29 - DEBUG - gig.controller: Getting Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 3:48:29 - DEBUG - gig.service: Finding Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 3:48:32 - DEBUG - gig.controller: Getting Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 3:48:32 - DEBUG - gig.service: Finding Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 3:48:44 - DEBUG - gig.service: Finding Gig (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 3:49:30 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 3:49:30 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 3:49:34 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":1,"price":33,"plan":"basic tattoo"},"status":"pending","createdAt":1663807774677} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:50:52 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:50:52 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:50:54 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:50:56 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":3,"price":55,"plan":"Very cool Tattoo"},"status":"pending","createdAt":1663807856501} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 3:56:39 - INFO - Server is running on port: 3030 
+22.9.2022, 3:56:53 - INFO - Server is running on port: 3030 
+22.9.2022, 4:03:25 - INFO - Server is running on port: 3030 
+22.9.2022, 4:03:36 - INFO - Server is running on port: 3030 
+22.9.2022, 4:04:14 - INFO - Server is running on port: 3030 
+22.9.2022, 4:05:19 - INFO - Server is running on port: 3030 
+22.9.2022, 4:16:56 - INFO - Server is running on port: 3030 
+22.9.2022, 4:18:29 - INFO - Server is running on port: 3030 
+22.9.2022, 4:18:30 - ERROR - order.service: Cannot get buyer`s Orders  | MongoError: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField. (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:18:30 - ERROR - order.controller: Failed to get orders | MongoError: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField. (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:18:33 - ERROR - order.service: Cannot get buyer`s Orders  | MongoError: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField. (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:18:33 - ERROR - order.controller: Failed to get orders | MongoError: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField. (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:18:46 - ERROR - order.service: Cannot get buyer`s Orders  | MongoError: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField. (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:18:46 - ERROR - order.controller: Failed to get orders | MongoError: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField. (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:19:29 - INFO - Server is running on port: 3030 
+22.9.2022, 4:19:39 - INFO - Server is running on port: 3030 
+22.9.2022, 4:21:30 - INFO - Server is running on port: 3030 
+22.9.2022, 4:22:56 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:22:56 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:22:58 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:24:24 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:24:26 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:24:55 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:25:08 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:44:07 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:44:07 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:44:07 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:44:32 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:44:38 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:44:41 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:44:52 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:44:52 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 4:44:54 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 5:22:38 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 5:22:38 - INFO - User login:  | {"_id":"632a1f320ac66f916470c2e6","username":"roy","fullname":"Roy Yam","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} 
+22.9.2022, 5:25:11 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 5:25:11 - INFO - User login:  | {"_id":"632a1f320ac66f916470c2e6","username":"roy","fullname":"Roy Yam","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} 
+22.9.2022, 5:25:17 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 5:25:17 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 5:25:22 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 5:25:22 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 5:27:04 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 5:27:05 - INFO - User login:  | {"_id":"632a1f320ac66f916470c2e6","username":"roy","fullname":"Roy Yam","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} 
+22.9.2022, 5:42:09 - INFO - Server is running on port: 3030 
+22.9.2022, 5:43:49 - INFO - Server is running on port: 3030 
+22.9.2022, 5:49:46 - INFO - Server is running on port: 3030 
+22.9.2022, 5:49:46 - ERROR - order.controller: Failed to update order status | TypeError: orderService.updateStatus is not a function (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 5:49:52 - INFO - Server is running on port: 3030 
+22.9.2022, 5:49:55 - ERROR - order.controller: Failed to update order status | TypeError: orderService.updateStatus is not a function (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 5:49:57 - ERROR - order.controller: Failed to update order status | TypeError: orderService.updateStatus is not a function (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 5:54:54 - INFO - Server is running on port: 3030 
+22.9.2022, 5:58:06 - INFO - Server is running on port: 3030 
+22.9.2022, 5:58:17 - INFO - Server is running on port: 3030 
+22.9.2022, 5:59:14 - INFO - Server is running on port: 3030 
+22.9.2022, 5:59:19 - INFO - Server is running on port: 3030 
+22.9.2022, 5:59:41 - INFO - Server is running on port: 3030 
+22.9.2022, 6:00:03 - INFO - Server is running on port: 3030 
+22.9.2022, 6:00:49 - INFO - Server is running on port: 3030 
+>>>>>>> c7552e2d2bb894e43899f1654ffed0ba9f88774a
+22.9.2022, 13:15:27 - INFO - Server is running on port: 3030 
