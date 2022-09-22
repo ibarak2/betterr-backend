@@ -21,7 +21,8 @@ async function queryByRole(isBuyer) {
                 }
             }
         ).toArray() :
-            await collection.aggregate({ $match: { "seller._id": id } },
+            await collection.aggregate(
+                { $match: { "seller._id": id } },
                 { $unwind: "$seller" },
                 {
                     $match: {

@@ -13,27 +13,28 @@ async function query(filterBy) {
         const collection = await dbService.getCollection('gig')
         var gigs = await collection.find(criteria).toArray()
 
-        const { maxPrice, daysToMake, rate, category } = filterBy
+        const { basicPrice, basicDaysToMake, rate, category } = filterBy
 
         if (category) {
             gigs = gigs.filter(gig => gig.category === category)
         }
 
-        if (maxPrice) {
-            gigs = gigs.filter(gig => gig.price <= maxPrice)
+        if (basicPrice) {
+            gigs = gigs.filter(gig => gig.plans.basicPrice <= basicPrice)
         }
 
-        if (daysToMake) {
-            gigs = gigs.filter(gig => gig.daysToMake <= daysToMake)
+        if (basicDaysToMake) {
+            gigs = gigs.filter(gig => gig.plans.basicDaysToMake <= basicDaysToMake)
         }
 
         if (rate) {
-            gigs = gigs.filter(gig => gig.rate >= rate)
+            gigs = gigs.filter(gig => gig.owner.rate >= rate)
         }
         if (filterBy.owner) {
             gigs = gigs.filter(gig => {
                 console.log(gig.owner.fullname === filterBy.owner)
-                return gig.owner.fullname === filterBy.owner})
+                return gig.owner.fullname === filterBy.owner
+            })
         }
         console.log(gigs)
 
