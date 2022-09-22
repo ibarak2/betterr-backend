@@ -1,6 +1,6 @@
 const express = require('express')
 
-const { getGigs, getGigById, addGig, updateGig, removeGig } = require('./gig.controller')
+const { getGigs, getGigById, addGig, updateGig, removeGig, addReview } = require('./gig.controller')
 const router = express.Router()
 
 // Get Gigs List
@@ -17,6 +17,9 @@ router.put('/:id', updateGig)
 
 // Delete Gig Item
 router.delete('/:id', removeGig)
+
+// Add Review
+router.put('/review/:id', addReview)
 
 
 module.exports = router

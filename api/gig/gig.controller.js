@@ -5,7 +5,7 @@ const logger = require('../../services/logger.service')
 async function getGigs(req, res) {
     try {
         logger.debug('gig.controller: Getting Gigs')
-        let filterBy = JSON.parse(req.query.params)
+        const filterBy = JSON.parse(req.query.params)
 
         console.log("filterBy:", filterBy);
         const gigs = await gigService.query(filterBy)
@@ -32,7 +32,7 @@ async function getGigById(req, res) {
 async function addGig(req, res) {
     try {
         const gig = req.body
-        const addedGig = gigService.add(gig)
+        const addedGig = await gigService.add(gig)
         res.json(addedGig)
     } catch (err) {
         logger.error('gig.controller: Failed to add gig', err)
@@ -64,11 +64,26 @@ async function removeGig(req, res) {
     }
 }
 
+async function addReview(req, res) {
+    try {
+        const gigId = req.params.id
+        const review = req.body
+        console.log('gigId:', gigId);
+        console.log('review:', review);
+        const updatedGig = await gigService.updateReview(gigId, review)
+        res.json(updatedGig)
+    } catch (err) {
+        logger.error('gig.controller: Failed to update gig review', err)
+        res.status(500).send({ err: 'Failed to update gig review' })
+    }
+}
+
 
 module.exports = {
     getGigs,
     removeGig,
     getGigById,
     addGig,
-    updateGig
+    updateGig,
+    addReview
 }
