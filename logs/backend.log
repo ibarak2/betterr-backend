@@ -286,3 +286,190 @@
 22.9.2022, 5:59:41 - INFO - Server is running on port: 3030 
 22.9.2022, 6:00:03 - INFO - Server is running on port: 3030 
 22.9.2022, 6:00:49 - INFO - Server is running on port: 3030 
+22.9.2022, 11:13:13 - INFO - Server is running on port: 3030 
+22.9.2022, 11:17:03 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 11:17:03 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 11:17:05 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 11:17:05 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 11:17:11 - DEBUG - gig.service: Finding Gig 
+22.9.2022, 11:17:57 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 11:17:57 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 11:18:15 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:18:15 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:18:20 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:18:22 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:18:22 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:18:23 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:18:26 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:18:26 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:18:32 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:19:16 - DEBUG - {"seller":{"fullname":"scriptrx"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b2f48add67fcaad7dd2ea","title":"I will provide notes and analysis on your screenplay or TV script","daysToMake":7,"price":80,"plan":"Better notes"},"status":"pending","createdAt":1663834756983} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:19:42 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 11:19:42 - INFO - User login:  | {"_id":"632a1f320ac66f916470c2e6","username":"roy","fullname":"Roy Yam","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} 
+22.9.2022, 11:20:58 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 11:20:58 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 11:21:03 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 11:21:03 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 11:22:10 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:22:10 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:22:13 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:22:25 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:22:25 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:22:29 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:22:41 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":2,"price":44,"plan":"not basic tattoo"},"status":"pending","createdAt":1663834961903} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:45:52 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:45:52 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:45:54 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:45:56 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":2,"price":44,"plan":"not basic tattoo"},"status":"pending","createdAt":1663836356355} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 11:46:06 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 11:46:06 - INFO - User login:  | {"_id":"632a1f320ac66f916470c2e6","username":"roy","fullname":"Roy Yam","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} 
+22.9.2022, 11:46:08 - DEBUG - gig.controller: Getting Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 11:46:08 - DEBUG - gig.service: Finding Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 11:46:29 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 11:46:29 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 11:46:43 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 11:46:43 - INFO - User login:  | {"_id":"632a1f320ac66f916470c2e6","username":"roy","fullname":"Roy Yam","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} 
+22.9.2022, 11:50:29 - INFO - Server is running on port: 3030 
+22.9.2022, 11:51:12 - ERROR - order.controller: Failed to get orders | TypeError: orderService.queryById is not a function (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 11:51:31 - ERROR - order.controller: Failed to get orders | TypeError: orderService.queryById is not a function (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 11:51:32 - ERROR - order.controller: Failed to get orders | TypeError: orderService.queryById is not a function (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 11:51:33 - ERROR - order.controller: Failed to get orders | TypeError: orderService.queryById is not a function (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 11:51:37 - ERROR - order.controller: Failed to get orders | TypeError: orderService.queryById is not a function (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 11:52:01 - INFO - Server is running on port: 3030 
+22.9.2022, 11:58:16 - DEBUG - gig.controller: Getting Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 11:58:16 - DEBUG - gig.service: Finding Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 12:01:06 - DEBUG - gig.controller: Getting Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 12:01:06 - DEBUG - gig.service: Finding Gigs (userId: 632a1f320ac66f916470c2e6)
+22.9.2022, 12:01:23 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 12:01:23 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 12:01:24 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:01:24 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:01:26 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:01:27 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":1,"price":33,"plan":"basic tattoo"},"status":"pending","createdAt":1663837287937} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:03:50 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:03:50 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:03:52 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:03:52 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:03:54 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:03:54 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:05:03 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:05:03 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:09:12 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:09:12 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:09:40 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:09:40 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:09:42 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:09:42 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:09:43 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:09:43 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:09:44 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:09:44 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:10:08 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:10:08 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:10:12 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:10:12 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:10:14 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:33 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:33 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:34 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:34 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:35 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:35 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:35 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:35 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:36 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:36 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:36 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:36 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:37 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:37 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:37 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:37 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:38 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:13:38 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:16:32 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:16:32 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:16:34 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:16:36 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":1,"price":33,"plan":"basic tattoo"},"status":"pending","createdAt":1663838196914} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:16:38 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":2,"price":44,"plan":"not basic tattoo"},"status":"pending","createdAt":1663838198671} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:16:40 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":3,"price":55,"plan":"Very cool Tattoo"},"status":"pending","createdAt":1663838200312} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:16:54 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:16:54 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:19:29 - INFO - Server is running on port: 3030 
+22.9.2022, 12:19:40 - ERROR - order.service: Cannot update Order status | TypeError: updatedOrder.toArray is not a function (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:19:40 - ERROR - order.controller: Failed to update order status | TypeError: updatedOrder.toArray is not a function (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:20:16 - INFO - Server is running on port: 3030 
+22.9.2022, 12:21:36 - INFO - Server is running on port: 3030 
+22.9.2022, 12:21:45 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:21:45 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:21:47 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:21:48 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":1,"price":33,"plan":"basic tattoo"},"status":"pending","createdAt":1663838508540} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:21:49 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":2,"price":44,"plan":"not basic tattoo"},"status":"pending","createdAt":1663838509966} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:21:51 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":3,"price":55,"plan":"Very cool Tattoo"},"status":"pending","createdAt":1663838511307} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:22:26 - INFO - Server is running on port: 3030 
+22.9.2022, 12:22:28 - INFO - Server is running on port: 3030 
+22.9.2022, 12:24:06 - INFO - Server is running on port: 3030 
+22.9.2022, 12:26:49 - INFO - Server is running on port: 3030 
+22.9.2022, 12:26:59 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:26:59 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:27:01 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:27:02 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":1,"price":33,"plan":"basic tattoo"},"status":"pending","createdAt":1663838822898} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:27:04 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":2,"price":44,"plan":"not basic tattoo"},"status":"pending","createdAt":1663838824069} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:27:05 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":3,"price":55,"plan":"Very cool Tattoo"},"status":"pending","createdAt":1663838825308} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:29:04 - INFO - Server is running on port: 3030 
+22.9.2022, 12:29:14 - INFO - Server is running on port: 3030 
+22.9.2022, 12:29:27 - ERROR - order.service: Cannot update Order status | TypeError: Cannot read properties of undefined (reading 'value') (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:29:27 - ERROR - order.controller: Failed to update order status | TypeError: Cannot read properties of undefined (reading 'value') (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:30:12 - INFO - Server is running on port: 3030 
+22.9.2022, 12:30:21 - ERROR - order.service: Cannot update Order status | TypeError: Cannot read properties of undefined (reading 'value') (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:30:21 - ERROR - order.controller: Failed to update order status | TypeError: Cannot read properties of undefined (reading 'value') (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:30:42 - INFO - Server is running on port: 3030 
+22.9.2022, 12:30:46 - INFO - Server is running on port: 3030 
+22.9.2022, 12:30:52 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:30:52 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:30:54 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:30:55 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":1,"price":33,"plan":"basic tattoo"},"status":"pending","createdAt":1663839055686} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:30:56 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":2,"price":44,"plan":"not basic tattoo"},"status":"pending","createdAt":1663839056826} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:30:57 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":3,"price":55,"plan":"Very cool Tattoo"},"status":"pending","createdAt":1663839057822} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:31:39 - INFO - Server is running on port: 3030 
+22.9.2022, 12:32:32 - INFO - Server is running on port: 3030 
+22.9.2022, 12:32:42 - INFO - Server is running on port: 3030 
+22.9.2022, 12:33:05 - INFO - Server is running on port: 3030 
+22.9.2022, 12:33:14 - INFO - Server is running on port: 3030 
+22.9.2022, 12:34:33 - INFO - Server is running on port: 3030 
+22.9.2022, 12:35:15 - INFO - Server is running on port: 3030 
+22.9.2022, 12:35:24 - INFO - Server is running on port: 3030 
+22.9.2022, 12:35:31 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:35:31 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:35:33 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:35:34 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":1,"price":33,"plan":"basic tattoo"},"status":"pending","createdAt":1663839334601} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:35:35 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":2,"price":44,"plan":"not basic tattoo"},"status":"pending","createdAt":1663839335653} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:35:36 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":3,"price":55,"plan":"Very cool Tattoo"},"status":"pending","createdAt":1663839336671} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:36:59 - INFO - Server is running on port: 3030 
+22.9.2022, 12:38:50 - INFO - Server is running on port: 3030 
+22.9.2022, 12:39:02 - INFO - Server is running on port: 3030 
+22.9.2022, 12:39:33 - INFO - Server is running on port: 3030 
+22.9.2022, 12:39:40 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:39:40 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:39:42 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:39:43 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":1,"price":33,"plan":"basic tattoo"},"status":"pending","createdAt":1663839583731} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:39:44 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":2,"price":44,"plan":"not basic tattoo"},"status":"pending","createdAt":1663839584760} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:39:45 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":3,"price":55,"plan":"Very cool Tattoo"},"status":"pending","createdAt":1663839585742} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:39:46 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":1,"price":33,"plan":"basic tattoo"},"status":"pending","createdAt":1663839586705} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:39:47 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":2,"price":44,"plan":"not basic tattoo"},"status":"pending","createdAt":1663839587683} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:39:48 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":3,"price":55,"plan":"Very cool Tattoo"},"status":"pending","createdAt":1663839588912} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:40:15 - INFO - Server is running on port: 3030 
+22.9.2022, 12:58:30 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:58:30 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:58:32 - DEBUG - gig.service: Finding Gig (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:58:38 - DEBUG - {"seller":{"_id":"632a1f320ac66f916470c2e6","fullname":"Roy Yam"},"buyer":{"_id":"632a1e4e63fb20522c12ccaf","fullname":"Barak Kaldess"},"gig":{"_id":"632b74e838437c8cb482544b","title":"Design your next Tattoo","daysToMake":2,"price":44,"plan":"not basic tattoo"},"status":"pending","createdAt":1663840718582} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:58:57 - DEBUG - auth.service - login with username: roy (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:58:58 - INFO - User login:  | {"_id":"632a1f320ac66f916470c2e6","username":"roy","fullname":"Roy Yam","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 12:59:37 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 12:59:37 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 13:00:00 - DEBUG - gig.controller: Getting Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 13:00:00 - DEBUG - gig.service: Finding Gigs (userId: 632a1e4e63fb20522c12ccaf)
+22.9.2022, 13:00:20 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 13:00:20 - INFO - User login:  | {"_id":"632a1f320ac66f916470c2e6","username":"roy","fullname":"Roy Yam","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","level":"basic","rate":5,"balance":100} 
+22.9.2022, 13:02:18 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 13:02:18 - INFO - User login:  | {"_id":"632a1e4e63fb20522c12ccaf","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg","balance":100,"level":"premium","rate":5,"isAdmin":true} 

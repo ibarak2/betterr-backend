@@ -4,7 +4,7 @@ const ObjectId = require('mongodb').ObjectId
 const asyncLocalStorage = require('../../services/als.service')
 
 
-async function queryById(isBuyer) {
+async function queryByRole(isBuyer) {
     try {
 
         const { loggedinUser } = asyncLocalStorage.getStore()
@@ -57,10 +57,9 @@ async function add(order) {
 async function updateStatus(orderId, newStatus) {
     try {
         const collection = await dbService.getCollection('order')
-        const updatedOrder = await collection.updateOne({ _id: ObjectId(orderId) }, { $set: { status: newStatus } })
-
-        return updatedOrder
-
+        const updatedOrder = await collection.findOneAndUpdate({ _id: ObjectId(orderId) }, { $set: { status: newStatus } }, { returnDocument: 'after' })
+        console.log("updatedOrder", updatedOrder);
+        return updatedOrder.value
     } catch (err) {
         logger.error('order.service: Cannot update Order status', err)
         throw err
@@ -72,7 +71,7 @@ async function update(order) {
 }
 
 module.exports = {
-    queryById,
+    queryByRole,
     add,
     update,
     updateStatus
