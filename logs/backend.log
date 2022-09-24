@@ -2589,3 +2589,149 @@
 =======
 >>>>>>> 919255bbaedeb074bc7526ac966a62106d07267e
 22.9.2022, 15:01:09 - INFO - Server is running on port: 3030 
+22.9.2022, 15:02:08 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 15:02:08 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 15:02:35 - DEBUG - gig.controller: Getting Gigs 
+22.9.2022, 15:02:35 - DEBUG - gig.service: Finding Gigs 
+22.9.2022, 15:03:02 - DEBUG - auth.service - login with username: roy 
+22.9.2022, 15:03:02 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af92","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"basic","rate":5,"balance":100,"isAdmin":true} 
+22.9.2022, 15:03:14 - DEBUG - auth.service - login with username: barak 
+22.9.2022, 15:03:14 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af94","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+22.9.2022, 15:03:24 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 15:03:24 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+22.9.2022, 15:03:27 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:03:27 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:03:33 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:03:37 - DEBUG - {"seller":{"_id":"632a4a2d0618b7023ab7af8a","fullname":"Roy Yam"},"buyer":{"_id":"632c3a430618b7023ab7af94","fullname":"Barak Kaldess"},"gig":{"_id":"632b7c09f056be2278a79627","title":"make any drawing for you ","daysToMake":2,"price":69,"plan":"lineart + color"},"status":"pending","createdAt":1663848217218} (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:09:20 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:09:20 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:09:24 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:11:34 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:11:34 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:11:38 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:13:04 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:17:20 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:19:40 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:19:40 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:19:52 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:36:27 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:46:12 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:47:12 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:47:12 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:47:17 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:47:23 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:47:23 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 15:47:29 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:08:54 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:08:54 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:08:58 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:09:54 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:09:54 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:09:57 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:10:00 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:10:00 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:10:05 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:10:10 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:10:10 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:56:31 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+22.9.2022, 16:56:31 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:46:52 - INFO - Server is running on port: 3030 
+24.9.2022, 17:47:49 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:47:49 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:48:51 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:48:57 - DEBUG - {"seller":{"_id":"632a4a2d0618b7023ab7af8a","fullname":"Roy Yam"},"buyer":{"_id":"632c3a430618b7023ab7af94","fullname":"Barak Kaldess"},"gig":{"_id":"632b7c09f056be2278a79627","title":"make any drawing for you ","daysToMake":1,"price":7,"plan":"lineart"},"status":"pending","createdAt":1664030937130} (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:50:16 - ERROR - order.service: Cannot get buyer`s Orders  | TypeError: Cannot read properties of undefined (reading '_id') 
+24.9.2022, 17:50:16 - ERROR - order.controller: Failed to get orders | TypeError: Cannot read properties of undefined (reading '_id') 
+24.9.2022, 17:50:20 - DEBUG - gig.controller: Getting Gigs 
+24.9.2022, 17:50:20 - DEBUG - gig.service: Finding Gigs 
+24.9.2022, 17:50:21 - DEBUG - gig.controller: Getting Gigs 
+24.9.2022, 17:50:21 - DEBUG - gig.service: Finding Gigs 
+24.9.2022, 17:50:26 - DEBUG - auth.service - login with username: roy 
+24.9.2022, 17:50:27 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af92","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"basic","rate":5,"balance":100,"isAdmin":true} 
+24.9.2022, 17:50:44 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:50:44 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:51:01 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 17:51:01 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 17:52:30 - DEBUG - gig.service: Adding Gig (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 17:52:32 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 17:52:32 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 17:52:44 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:52:44 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:53:23 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:53:31 - DEBUG - {"seller":{"_id":"632c3a430618b7023ab7af92","fullname":"Roy Yam"},"buyer":{"_id":"632c3a430618b7023ab7af94","fullname":"Barak Kaldess"},"gig":{"_id":"632f19aeb1ce005114e05435","title":"123","daysToMake":28,"price":123,"plan":"123"},"status":"pending","createdAt":1664031211292} (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:57:29 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 17:57:29 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 17:59:19 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 17:59:19 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:46:18 - INFO - Server is running on port: 3030 
+24.9.2022, 19:46:29 - DEBUG - gig.controller: Getting Gigs 
+24.9.2022, 19:46:29 - DEBUG - gig.service: Finding Gigs 
+24.9.2022, 19:46:31 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:46:31 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:46:31 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:46:31 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:48:13 - DEBUG - auth.service - login with username: roy (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:48:13 - ERROR - auth.controller: Failed to Login Invalid username or password (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:48:14 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:48:14 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:48:14 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:48:14 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:48:19 - DEBUG - auth.service - login with username: roy (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:48:19 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af92","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"basic","rate":5,"balance":100,"isAdmin":true} (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 19:48:30 - DEBUG - gig.controller: Getting Gigs 
+24.9.2022, 19:48:30 - DEBUG - gig.service: Finding Gigs 
+24.9.2022, 19:48:31 - DEBUG - gig.controller: Getting Gigs 
+24.9.2022, 19:48:31 - DEBUG - gig.service: Finding Gigs 
+24.9.2022, 19:48:36 - DEBUG - auth.service - login with username: barak 
+24.9.2022, 19:48:36 - INFO - User login:  | {"_id":"632c3a430618b7023ab7af94","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+24.9.2022, 19:51:42 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 19:51:42 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 20:51:51 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 20:51:51 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 20:52:03 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 20:52:03 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 20:52:10 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 20:52:21 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 20:52:21 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 20:52:23 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 20:52:24 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 20:52:27 - DEBUG - gig.service: Finding Gig (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 20:52:29 - DEBUG - {"seller":{"_id":"632c3a430618b7023ab7af92","fullname":"Roy Yam"},"buyer":{"_id":"632c3a430618b7023ab7af94","fullname":"Barak Kaldess"},"gig":{"_id":"632f19aeb1ce005114e05435","title":"123","daysToMake":28,"price":123,"plan":"123"},"status":"pending","createdAt":1664041949299} (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 21:22:51 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 21:22:51 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af94)
+24.9.2022, 23:08:04 - DEBUG - gig.controller: Getting Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 23:08:04 - DEBUG - gig.service: Finding Gigs (userId: 632c3a430618b7023ab7af92)
+24.9.2022, 23:55:23 - INFO - New connected socket [id: O9CLhlHy2umkAFEGAAAC] 
+24.9.2022, 23:55:23 - INFO - New connected socket [id: LJKTUiqLaaMi3XP6AAAD] 
+24.9.2022, 23:55:24 - INFO - Setting socket.userId = 632c3a430618b7023ab7af92 for socket [id: O9CLhlHy2umkAFEGAAAC] 
+24.9.2022, 23:55:24 - INFO - Setting socket.userId = 632c3a430618b7023ab7af94 for socket [id: LJKTUiqLaaMi3XP6AAAD] 
+24.9.2022, 23:55:28 - INFO - Socket disconnected [id: undefined] 
+24.9.2022, 23:55:29 - INFO - New connected socket [id: CYzICrls-zn9eFpfAAAF] 
+24.9.2022, 23:55:29 - INFO - Setting socket.userId = 632c3a430618b7023ab7af94 for socket [id: CYzICrls-zn9eFpfAAAF] 
+24.9.2022, 23:55:31 - INFO - Socket disconnected [id: undefined] 
+24.9.2022, 23:55:31 - INFO - New connected socket [id: fhq-ZllusUp-TVrLAAAH] 
+24.9.2022, 23:55:32 - INFO - Setting socket.userId = 632c3a430618b7023ab7af92 for socket [id: fhq-ZllusUp-TVrLAAAH] 
+24.9.2022, 23:55:34 - INFO - New chat msg from socket [id: CYzICrls-zn9eFpfAAAF], emitting to topic order._id 
+24.9.2022, 23:55:40 - INFO - New chat msg from socket [id: fhq-ZllusUp-TVrLAAAH], emitting to topic order._id 
+24.9.2022, 23:56:02 - INFO - New chat msg from socket [id: CYzICrls-zn9eFpfAAAF], emitting to topic order._id 
+24.9.2022, 23:56:04 - INFO - New chat msg from socket [id: fhq-ZllusUp-TVrLAAAH], emitting to topic order._id 
+25.9.2022, 0:00:30 - INFO - New connected socket [id: Bj1JAOeiL09eUfKDAAAJ] 
+25.9.2022, 0:00:35 - INFO - New chat msg from socket [id: Bj1JAOeiL09eUfKDAAAJ], emitting to topic order._id 
+25.9.2022, 0:00:48 - INFO - Socket disconnected [id: undefined] 
+25.9.2022, 0:04:13 - INFO - New connected socket [id: m-lyTmt-H-q9zmvOAAAL] 
+25.9.2022, 0:04:14 - INFO - Socket is leaving topic order._id [id: m-lyTmt-H-q9zmvOAAAL] 
+25.9.2022, 0:04:18 - INFO - Socket is leaving topic chat2 [id: m-lyTmt-H-q9zmvOAAAL] 
+25.9.2022, 0:04:18 - INFO - Socket is leaving topic chat1 [id: m-lyTmt-H-q9zmvOAAAL] 
+25.9.2022, 0:04:21 - INFO - New chat msg from socket [id: m-lyTmt-H-q9zmvOAAAL], emitting to topic chat2 
+25.9.2022, 0:04:23 - INFO - Socket is leaving topic chat2 [id: m-lyTmt-H-q9zmvOAAAL] 
+25.9.2022, 0:04:26 - INFO - New chat msg from socket [id: m-lyTmt-H-q9zmvOAAAL], emitting to topic chat1 
+25.9.2022, 0:04:44 - INFO - Socket is leaving topic order._id [id: fhq-ZllusUp-TVrLAAAH] 
+25.9.2022, 0:04:44 - INFO - Socket is leaving topic order._id [id: CYzICrls-zn9eFpfAAAF] 
+25.9.2022, 0:04:45 - INFO - Socket is leaving topic chat1 [id: m-lyTmt-H-q9zmvOAAAL] 
+25.9.2022, 0:06:15 - INFO - Socket is leaving topic chat1 [id: CYzICrls-zn9eFpfAAAF] 
+25.9.2022, 0:06:18 - INFO - Socket is leaving topic chat1 [id: CYzICrls-zn9eFpfAAAF] 
+25.9.2022, 0:06:26 - INFO - Socket is leaving topic chat2 [id: CYzICrls-zn9eFpfAAAF] 
+25.9.2022, 0:06:26 - INFO - Socket is leaving topic chat2 [id: fhq-ZllusUp-TVrLAAAH] 
+25.9.2022, 0:06:41 - INFO - New chat msg from socket [id: m-lyTmt-H-q9zmvOAAAL], emitting to topic chat2 
+25.9.2022, 0:06:46 - INFO - Socket is leaving topic chat2 [id: m-lyTmt-H-q9zmvOAAAL] 
+25.9.2022, 0:06:50 - INFO - New chat msg from socket [id: m-lyTmt-H-q9zmvOAAAL], emitting to topic chat1 
