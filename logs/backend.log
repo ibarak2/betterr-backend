@@ -2735,3 +2735,7 @@
 25.9.2022, 0:06:41 - INFO - New chat msg from socket [id: m-lyTmt-H-q9zmvOAAAL], emitting to topic chat2 
 25.9.2022, 0:06:46 - INFO - Socket is leaving topic chat2 [id: m-lyTmt-H-q9zmvOAAAL] 
 25.9.2022, 0:06:50 - INFO - New chat msg from socket [id: m-lyTmt-H-q9zmvOAAAL], emitting to topic chat1 
+25.9.2022, 2:20:53 - INFO - Server is running on port: 3030 
+25.9.2022, 2:20:53 - INFO - New connected socket [id: fruhGDWiDOohLLMbAAAB] 
+25.9.2022, 2:20:53 - INFO - New connected socket [id: a2aIOqoV1BP12PnzAAAD] 
+25.9.2022, 2:20:53 - INFO - New connected socket [id: PXz47RNqsc4OChMHAAAF] 
