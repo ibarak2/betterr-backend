@@ -62,10 +62,26 @@ function setupSocketAPI(http) {
       emitToUser({ type: "new-order-recieved", data: "New Order Recieved", userId: sellerId })
     })
 
+    socket.on("order-accepted", (miniOrder) => {
+      logger.info(`Order Accepted`)
+
+      emitToUser({ type: "on-order-accepted", data: { txt: "Your Order Accepted by the Seller", orderId: miniOrder._id }, userId: miniOrder.userId })
+    })
+    socket.on("order-ready", (miniOrder) => {
+      logger.info(`Order Accepted`)
+
+      emitToUser({ type: "on-order-ready", data: { txt: "Your Order is Ready", orderId: miniOrder._id }, userId: miniOrder.userId })
+    })
+    socket.on("order-delivered", (miniOrder) => {
+      logger.info(`Order Accepted`)
+
+      emitToUser({ type: "on-order-delivered", data: { txt: "Order Delivered", orderId: miniOrder._id }, userId: miniOrder.userId })
+    })
+
     socket.on("order-cancelled", (miniOrder) => {
       logger.info(`Order cancelled.`)
 
-      emitToUser({ type: "on-order-cancelled", data: { txt: "Order Cancelled", orderId: miniOrder._id }, userId: miniOrder.userId })
+      emitToUser({ type: "on-order-cancelled", data: { txt: "Your Order Cancelled", orderId: miniOrder._id }, userId: miniOrder.userId })
     })
   })
 }
@@ -76,6 +92,7 @@ function emitTo({ type, data, label }) {
 }
 
 async function emitToUser({ type, data, userId }) {
+  if (!userId) return
   userId = userId.toString()
   const socket = await _getUserSocket(userId)
 
