@@ -32,8 +32,7 @@ async function query(filterBy) {
         }
         if (filterBy.owner) {
             gigs = gigs.filter(gig => {
-                console.log(gig.owner.fullname === filterBy.owner)
-                return gig.owner.fullname === filterBy.owner
+                return gig.owner._id === filterBy.owner
             })
         }
         console.log(gigs)
