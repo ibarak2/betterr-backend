@@ -52,9 +52,20 @@ async function updateOrderStatus(req, res) {
   }
 }
 
+async function getAnalytics(req, res) {
+  try {
+    const analytics = await orderService.analytics()
+    res.json(analytics)
+  } catch (err) {
+    logger.error('gig.controller: Failed to getAnalytics', err)
+    res.status(500).send({ err: 'Failed to getAnalytics' })
+  }
+}
+
 module.exports = {
   getOrdersById,
   addOrder,
   updateOrder,
   updateOrderStatus,
+  getAnalytics
 }

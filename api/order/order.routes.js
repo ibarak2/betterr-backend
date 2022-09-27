@@ -1,6 +1,6 @@
 const express = require('express')
 
-const { getOrdersById, addOrder, updateOrder, updateOrderStatus } = require('./order.controller')
+const { getOrdersById, addOrder, updateOrder, updateOrderStatus, getAnalytics } = require('./order.controller')
 const router = express.Router()
 
 //
@@ -15,6 +15,8 @@ router.put('/:id', updateOrder)
 //
 router.put('/status/:id', updateOrderStatus)
 
+// Get Analytics
+router.get('/analytics', getAnalytics)
 
 
 
