@@ -62,27 +62,12 @@ function setupSocketAPI(http) {
       emitToUser({ type: "new-order-recieved", data: "New Order Recieved", userId: sellerId })
     })
 
-    socket.on("order-accepted", (miniOrder) => {
-      logger.info(`Order Accepted`)
+    socket.on("order-change-status", (miniOrder) => {
+      logger.info(`Change Order Status`)
 
-      emitToUser({ type: "on-order-accepted", data: { txt: "Your Order Accepted by the Seller", orderId: miniOrder._id }, userId: miniOrder.userId })
-    })
-    socket.on("order-ready", (miniOrder) => {
-      logger.info(`Order Accepted`)
-
-      emitToUser({ type: "on-order-ready", data: { txt: "Your Order is Ready", orderId: miniOrder._id }, userId: miniOrder.userId })
-    })
-    socket.on("order-delivered", (miniOrder) => {
-      logger.info(`Order Accepted`)
-
-      emitToUser({ type: "on-order-delivered", data: { txt: "Order Delivered", orderId: miniOrder._id }, userId: miniOrder.userId })
+      emitToUser({ type: "on-order-changed-status", data: { txt: miniOrder.txt, orderId: miniOrder._id, status: miniOrder.status }, userId: miniOrder.userId })
     })
 
-    socket.on("order-cancelled", (miniOrder) => {
-      logger.info(`Order cancelled.`)
-
-      emitToUser({ type: "on-order-cancelled", data: { txt: "Your Order Cancelled", orderId: miniOrder._id }, userId: miniOrder.userId })
-    })
   })
 }
 
