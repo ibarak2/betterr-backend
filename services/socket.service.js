@@ -14,26 +14,23 @@ function setupSocketAPI(http) {
     socket.on("disconnect", () => {
       logger.info(`Socket disconnected [id: ${socket.id}]`)
     })
-    socket.on("chat-set-topic", (topic) => {
-      if (socket.myTopic === topic) return
-      if (socket.myTopic) {
-        socket.leave(socket.myTopic)
+    socket.on("chat-set-room", (room) => {
+      if (socket.myRoom === room) return
+      if (socket.myRoom) {
+        socket.leave(socket.myRoom)
         logger.info(
-          `Socket is leaving topic ${socket.myTopic} [id: ${socket.id}]`
+          `Socket is leaving room ${socket.myRoom} [id: ${socket.id}]`
         )
       }
-      socket.join(topic)
-      socket.myTopic = topic
+      socket.join(room)
+      socket.myRoom = room
     })
-
-    socket.on("chat-send-msg", (msg) => {
+    socket.on("chat-send-msg", (miniTxt) => {
       logger.info(
-        `New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`
+        `New chat msg from socket [id: ${socket.id}], emitting to room ${socket.myRoom}`
       )
-      // emits to all sockets:
-      // gIo.emit('chat addMsg', msg)
-      // emits only to sockets in the same room
-      gIo.to(socket.myTopic).emit("chat-add-msg", msg)
+      
+      emitToUser({ type: "on-sent-msg", data: miniTxt.newMsg, userId: miniTxt.userId })
     })
 
     socket.on("user-watch", (userId) => {
