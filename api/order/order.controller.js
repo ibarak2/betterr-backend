@@ -6,8 +6,9 @@ const orderService = require("./order.service.js")
 
 async function getOrdersById(req, res) {
   try {
-    const isBuyer = JSON.parse(req.query.params)
-    const orders = await orderService.queryByRole(isBuyer)
+    const filter = JSON.parse(req.query.params)
+    console.log("filter", filter);
+    const orders = await orderService.queryByRole(filter)
     res.json(orders)
   } catch (err) {
     logger.error("order.controller: Failed to get orders", err)
@@ -16,21 +17,10 @@ async function getOrdersById(req, res) {
 }
 
 async function addOrder(req, res) {
-  var loggedinUser = authService.validateToken(req.cookies.loginToken)
   try {
     const order = req.body
     const addedOrder = await orderService.add(order)
     res.json(addedOrder)
-    socketService.broadcast({
-      type: "hire-for-gig-request",
-      data: order,
-      userId: loggedinUser._id,
-    })
-    socketService.emitToUser({
-      type: "hire-for-gig-request",
-      data: order,
-      userId: order.seller._id,
-    })
   } catch (err) {
     logger.error("order.controller: Failed to add orders", err)
     res.status(500).send({ err: "Failed to add orders" })
