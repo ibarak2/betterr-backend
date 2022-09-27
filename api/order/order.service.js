@@ -4,7 +4,7 @@ const ObjectId = require('mongodb').ObjectId
 const asyncLocalStorage = require('../../services/als.service')
 
 
-async function queryByRole(isBuyer) {
+async function queryByRole(filter) {
     try {
 
         const { loggedinUser } = asyncLocalStorage.getStore()
@@ -12,7 +12,7 @@ async function queryByRole(isBuyer) {
         console.log(id);
 
         const collection = await dbService.getCollection('order')
-        const orders = (isBuyer) ? await collection.aggregate(
+        let orders = (filter.isBuyer) ? await collection.aggregate(
             { $match: { "buyer._id": id } },
             { $unwind: "$buyer" },
             {
@@ -29,7 +29,11 @@ async function queryByRole(isBuyer) {
                         "seller._id": id
                     }
                 }).toArray()
-        console.log("orders", orders);
+
+        orders = (filter.filterBy === 'cancelled-orders') ? orders.filter(order => order.status === 'cancelled') :
+            (filter.filterBy === 'completed-orders') ? orders.filter(order => order.status === 'completed') :
+                (filter.filterBy === 'active-orders') ? orders.filter(order => order.status !== 'cancelled' && order.status !== 'completed') : orders
+
         return orders
     } catch (err) {
         logger.error('order.service: Cannot get buyer`s Orders ', err)

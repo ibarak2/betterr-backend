@@ -13,10 +13,21 @@ async function query(filterBy) {
         const collection = await dbService.getCollection('gig')
         var gigs = await collection.find(criteria).toArray()
 
-        const { basicPrice, basicDaysToMake, rate, category } = filterBy
+        const { basicPrice, basicDaysToMake, rate, category, search } = filterBy
 
-        if (category) {
+        if (category && category !== 'trending') {
             gigs = gigs.filter(gig => gig.category === category)
+        }
+
+        if (category === 'trending') {
+            console.log("here");
+            console.log(gigs);
+            gigs.sort((a, b) => b.viewsCount - a.viewsCount)
+            console.log(gigs);
+        }
+
+        if (search) {
+            gigs = gigs.filter(gig => gig.title.includes(search))
         }
 
         if (basicPrice) {
@@ -30,12 +41,13 @@ async function query(filterBy) {
         if (rate) {
             gigs = gigs.filter(gig => gig.owner.rate >= rate)
         }
+
         if (filterBy.owner) {
             gigs = gigs.filter(gig => {
                 return gig.owner._id === filterBy.owner
             })
         }
-        console.log(gigs)
+        // console.log(gigs)
 
         return gigs
     } catch (err) {
@@ -49,9 +61,9 @@ async function getById(gigId) {
         logger.debug(`gig.service: Finding Gig`)
 
         const collection = await dbService.getCollection('gig')
-        const gig = await collection.findOne({ _id: ObjectId(gigId) })
-
-        return gig
+        const gig = await collection.findOneAndUpdate({ _id: ObjectId(gigId) }, { $inc: { viewsCount: 1 } }, { returnDocument: 'after' })
+        console.log(gig.value);
+        return gig.value
     } catch (err) {
         logger.error('gig.service: Cannot find gig: ', err)
         throw err
@@ -68,6 +80,7 @@ async function add(gig) {
         gig.owner = { ...loggedinUser }
         gig.reviews = []
         gig.likedByUsers = []
+        gig.viewsCount = 0
         console.log(gig);
 
         const collection = await dbService.getCollection('gig')
