@@ -7,14 +7,16 @@ module.exports = {
 }
 
 // Database Name
-const dbName = 'tester_db'
+const dbName = 'better_db'
 
 var dbConn = null
 
 async function getCollection(collectionName) {
     try {
         const db = await connect()
+        console.log('collection', db);
         const collection = await db.collection(collectionName)
+        
         return collection
     } catch (err) {
         logger.error('Failed to get Mongo collection', err)
