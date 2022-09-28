@@ -94,11 +94,13 @@ async function addReview(req, res) {
 }
 
 
+
+
 module.exports = {
     getGigs,
     removeGig,
     getGigById,
     addGig,
     updateGig,
-    addReview
+    addReview,
 }
