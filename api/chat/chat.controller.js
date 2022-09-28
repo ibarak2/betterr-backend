@@ -17,7 +17,7 @@ async function getChatRoomsById(req, res) {
 async function addChatRoom(req, res) {
     try {
         const chatRoom = req.body
-        console.log('chatRoom', chatRoom);
+        // console.log('chatRoom', chatRoom);
         const addedChatRoom = await chatService.add(chatRoom)
         res.json(addedChatRoom)
     } catch (err) {

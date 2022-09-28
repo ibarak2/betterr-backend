@@ -7,7 +7,7 @@ const orderService = require("./order.service.js")
 async function getOrdersById(req, res) {
   try {
     const filter = JSON.parse(req.query.params)
-    console.log("filter", filter);
+    // console.log("filter", filter);
     const orders = await orderService.queryByRole(filter)
     res.json(orders)
   } catch (err) {
@@ -42,8 +42,8 @@ async function updateOrderStatus(req, res) {
   try {
     const gigId = req.params.id
     const status = req.body
-    console.log(gigId)
-    console.log(status.status)
+    // console.log(gigId)
+    // console.log(status.status)
     const updatedOrder = await orderService.updateStatus(gigId, status.status)
     res.json(updatedOrder)
   } catch (err) {
