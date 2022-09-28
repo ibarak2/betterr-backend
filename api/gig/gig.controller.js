@@ -7,7 +7,7 @@ async function getGigs(req, res) {
         logger.debug('gig.controller: Getting Gigs')
         const filterBy = JSON.parse(req.query.params)
 
-        console.log("filterBy:", filterBy);
+        // console.log("filterBy:", filterBy);
         const gigs = await gigService.query(filterBy)
         res.json(gigs)
     } catch (err) {
@@ -70,7 +70,7 @@ async function getGigsByOwner(req, res) {
         logger.debug('gig.controller: Getting Gigs')
         let filterBy = JSON.parse(req.query.params)
 
-        console.log("filterBy:", filterBy)
+        // console.log("filterBy:", filterBy)
         const gigs = await gigService.query(filterBy)
         res.json(gigs)
     } catch (err) {
@@ -83,8 +83,8 @@ async function addReview(req, res) {
     try {
         const gigId = req.params.id
         const review = req.body
-        console.log('gigId:', gigId);
-        console.log('review:', review);
+        // console.log('gigId:', gigId);
+        // console.log('review:', review);
         const updatedGig = await gigService.updateReview(gigId, review)
         res.json(updatedGig)
     } catch (err) {

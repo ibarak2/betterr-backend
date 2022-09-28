@@ -20,10 +20,10 @@ async function query(filterBy) {
         }
 
         if (category === 'trending') {
-            console.log("here");
-            console.log(gigs);
+            // console.log("here");
+            // console.log(gigs);
             gigs.sort((a, b) => b.viewsCount - a.viewsCount)
-            console.log(gigs);
+            // console.log(gigs);
         }
 
         if (search) {
@@ -62,7 +62,7 @@ async function getById(gigId) {
 
         const collection = await dbService.getCollection('gig')
         const gig = await collection.findOneAndUpdate({ _id: ObjectId(gigId) }, { $inc: { viewsCount: 1 } }, { returnDocument: 'after' })
-        console.log(gig.value);
+        // console.log(gig.value);
         return gig.value
     } catch (err) {
         logger.error('gig.service: Cannot find gig: ', err)
@@ -76,12 +76,12 @@ async function add(gig) {
 
         const { loggedinUser } = asyncLocalStorage.getStore()
         delete loggedinUser.balance
-        console.log('loggeinUser', loggedinUser);
+        // console.log('loggeinUser', loggedinUser);
         gig.owner = { ...loggedinUser }
         gig.reviews = []
         gig.likedByUsers = []
         gig.viewsCount = 0
-        console.log(gig);
+        // console.log(gig);
 
         const collection = await dbService.getCollection('gig')
         const addedGig = await collection.insertOne(gig)

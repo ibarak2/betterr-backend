@@ -20,7 +20,7 @@ async function login(username, password) {
 
 async function signup({ username, password, fullname }) {
     const saltRounds = 10
-    console.log(username, password, fullname);
+    // console.log(username, password, fullname);
     logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
     if (!username || !password || !fullname) return Promise.reject('Missing required signup information')
 

@@ -9,7 +9,7 @@ async function queryByRole(filter) {
 
         const { loggedinUser } = asyncLocalStorage.getStore()
         const id = loggedinUser._id
-        console.log(id);
+        // console.log(id);
 
         const collection = await dbService.getCollection('order')
         let orders = (filter.isBuyer) ? await collection.aggregate(

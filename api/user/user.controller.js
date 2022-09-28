@@ -5,7 +5,7 @@ const logger = require('../../services/logger.service')
 async function getUser(req, res) {
     try {
         const user = await userService.getById(req.params.id)
-        console.log("user", user);
+        // console.log("user", user);
         res.send(user)
     } catch (err) {
         logger.error('Failed to get user', err)
@@ -41,6 +41,8 @@ async function deleteUser(req, res) {
 async function updateUser(req, res) {
     try {
         const user = req.body
+        console.log('userrr', user)
+        
         const savedUser = await userService.update(user)
         res.send(savedUser)
     } catch (err) {
