@@ -4,7 +4,7 @@
     "password": "$2b$10$j3FGpVkkE7p/K5DGKN0lWuTZ7YwaO9JtrI28emTqApN/I7W0BRRJm",
     "fullname": "Admin",
     "imgUrl": "https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg",
-    "level": "premium",
+    "level": "2",
     "rate": 5,
     "balance": 100,
     "isAdmin": true
@@ -14,7 +14,7 @@
     "password": "$2b$10$0Ru0QvVUxh7EHjDl3CcCZugySJWFksWrBpK9TwTduNtrK/Zp01JEK",
     "fullname": "User 1",
     "imgUrl": "https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg",
-    "level": "basic",
+    "level": "1",
     "rate": 5,
     "balance": 100
   },
@@ -23,7 +23,7 @@
     "password": "$2b$10$48CqFezjyZteGVdpRb2wxerbQbWUpZGX6MuvcNyXjG.Vm8qF1.Z2C",
     "fullname": "User 2",
     "imgUrl": "https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg",
-    "level": "basic",
+    "level": "1",
     "rate": 5,
     "balance": 100
   },
@@ -32,7 +32,7 @@
     "password": "$2b$10$QIQlPe6oQXvbsygX1M3qHu/F/tj2W0dZ5r1rjmO58HIFtJQip1WXW",
     "fullname": "Seller 1",
     "imgUrl": "https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg",
-    "level": "basic",
+    "level": "2",
     "rate": 5,
     "balance": 100
   },
@@ -41,7 +41,7 @@
     "password": "$2b$10$02xmSB1PXizqDWrEXDoLUee6k8DAv6jzZ6nehmG4YPvE0HDqVwYr2",
     "fullname": "Seller 2",
     "imgUrl": "https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg",
-    "level": "basic",
+    "level": "2",
     "rate": 5,
     "balance": 100
   },
@@ -50,7 +50,7 @@
     "password": "$2b$10$cF0DMu4IJLb7ubh6sR/Ceuz9NdUE6688AtLyzWzIcsVAHyG.qIRP2",
     "fullname": "Roy Yam",
     "imgUrl": "https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg",
-    "level": "basic",
+    "level": "2",
     "rate": 5,
     "balance": 100,
     "isAdmin": true
@@ -60,7 +60,7 @@
     "password": "$2b$10$VoVnFBPWhwHK8y5Q1Ij6bOF3IJY9xG6LQEfRcB/cgN32cW5A1QQUy",
     "fullname": "Elliot Sherman",
     "imgUrl": "https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg",
-    "level": "basic",
+    "level": "2",
     "rate": 5,
     "balance": 100,
     "isAdmin": true
@@ -71,7 +71,7 @@
     "fullname": "Barak Kaldess",
     "imgUrl": "https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png",
     "balance": 100,
-    "level": "premium",
+    "level": "2",
     "rate": 5,
     "isAdmin": true
   }
