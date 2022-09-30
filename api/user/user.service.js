@@ -73,17 +73,18 @@ async function remove(userId) {
 
 async function update(user) {
   try {
-    // peek only updatable properties
-    const userToSave = {
-      _id: ObjectId(user.userId), // needed for the returnd obj
-      username: user.username.fullname,
-    }
+    let newUsername
+    const id = ObjectId(user._id)
     const collection = await dbService.getCollection('user')
-    await collection.updateOne(
-      { _id: userToSave._id },
-      { $set: { username: userToSave.username } }
-    )
-    const newUsername = await collection.findOne({"_id": userToSave._id})
+
+    console.log("user", user);
+    if (user.imgUrl) {
+      newUsername = await collection.updateOne({ _id: id }, { $set: { imgUrl: user.imgUrl } })
+    }
+    if (user.fullname) {
+      newUsername = await collection.updateOne({ _id: id }, { $set: { fullname: user.fullname } })
+    }
+
     return newUsername
   } catch (err) {
     logger.error(`cannot update user ${user.userId}`, err)
