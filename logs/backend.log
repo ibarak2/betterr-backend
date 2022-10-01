@@ -4594,3 +4594,554 @@
 28.9.2022, 3:26:30 - DEBUG - gig.service: Finding Gig (userId: 63334680b57f6a7f5753499b)
 28.9.2022, 3:26:33 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
 28.9.2022, 3:26:33 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 3:34:30 - INFO - Server is running on port: 3030 
+28.9.2022, 3:34:30 - INFO - New connected socket [id: isfpHq3CvqKtbcg4AAAB] 
+28.9.2022, 3:35:02 - INFO - Removing socket.userId for socket [id: isfpHq3CvqKtbcg4AAAB] 
+28.9.2022, 3:35:02 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 3:35:02 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:10:53 - INFO - Server is running on port: 3030 
+28.9.2022, 12:10:53 - INFO - New connected socket [id: yNE5WRvr5pgjYYkOAAAB] 
+28.9.2022, 12:11:09 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:11:09 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:11:09 - INFO - New connected socket [id: xuHJikXtbjP2drZZAAAD] 
+28.9.2022, 12:11:09 - INFO - Socket disconnected [id: xuHJikXtbjP2drZZAAAD] 
+28.9.2022, 12:11:13 - INFO - Socket disconnected [id: yNE5WRvr5pgjYYkOAAAB] 
+28.9.2022, 12:11:14 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:11:14 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:11:15 - INFO - New connected socket [id: UbiAH2rP1sCHjYRiAAAF] 
+28.9.2022, 12:18:22 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:18:22 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:21:45 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:21:45 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:22:03 - DEBUG - gig.service: Finding Gig 
+28.9.2022, 12:22:05 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:22:05 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:22:08 - DEBUG - gig.service: Finding Gig 
+28.9.2022, 12:22:09 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:22:09 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:22:11 - DEBUG - gig.service: Finding Gig 
+28.9.2022, 12:22:12 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:22:12 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:22:15 - INFO - Socket disconnected [id: UbiAH2rP1sCHjYRiAAAF] 
+28.9.2022, 12:22:15 - INFO - New connected socket [id: wPedm7VoA_ZX5eS0AAAH] 
+28.9.2022, 12:22:15 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:22:15 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:22:18 - DEBUG - gig.service: Finding Gig 
+28.9.2022, 12:22:19 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:22:19 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:22:20 - DEBUG - gig.service: Finding Gig 
+28.9.2022, 12:22:21 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:22:21 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:22:23 - DEBUG - gig.service: Finding Gig 
+28.9.2022, 12:22:24 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:22:24 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:22:26 - DEBUG - gig.service: Finding Gig 
+28.9.2022, 12:22:46 - DEBUG - auth.service - login with username: roy 
+28.9.2022, 12:22:46 - INFO - User login:  | {"_id":"63334680b57f6a7f5753499b","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"basic","rate":5,"balance":100,"isAdmin":true,"userToSave":{"_id":"63334680b57f6a7f5753499b","fullname":"Roy Yam"}} 
+28.9.2022, 12:22:46 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: wPedm7VoA_ZX5eS0AAAH] 
+28.9.2022, 12:23:34 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:23:34 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:24:07 - DEBUG - gig.service: Finding Gig (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:24:09 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:24:09 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:26:10 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:26:10 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:41:16 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:41:16 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:41:16 - INFO - New connected socket [id: BFkY-igIpv05DgqoAAAJ] 
+28.9.2022, 12:41:16 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:41:16 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:41:23 - DEBUG - auth.service - login with username: barak 
+28.9.2022, 12:41:23 - INFO - User login:  | {"_id":"63334680b57f6a7f5753499d","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+28.9.2022, 12:41:23 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: BFkY-igIpv05DgqoAAAJ] 
+28.9.2022, 12:41:29 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 12:41:29 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 12:41:31 - INFO - Removing socket.userId for socket [id: BFkY-igIpv05DgqoAAAJ] 
+28.9.2022, 12:41:32 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 12:41:32 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 12:41:33 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:41:33 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:42:34 - INFO - Socket disconnected [id: wPedm7VoA_ZX5eS0AAAH] 
+28.9.2022, 12:42:36 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:42:36 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:42:36 - INFO - New connected socket [id: ou8-x9YqMJ0fqXJYAAAL] 
+28.9.2022, 12:42:36 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: ou8-x9YqMJ0fqXJYAAAL] 
+28.9.2022, 12:42:39 - INFO - Removing socket.userId for socket [id: ou8-x9YqMJ0fqXJYAAAL] 
+28.9.2022, 12:42:44 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:42:44 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:43:28 - INFO - Socket disconnected [id: ou8-x9YqMJ0fqXJYAAAL] 
+28.9.2022, 12:43:29 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 12:43:29 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 12:43:29 - INFO - New connected socket [id: bwQ-S4TC8-z147juAAAN] 
+28.9.2022, 12:43:43 - DEBUG - auth.service - login with username: roy 
+28.9.2022, 12:43:43 - INFO - User login:  | {"_id":"63334680b57f6a7f5753499b","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"basic","rate":5,"balance":100,"isAdmin":true,"userToSave":{"_id":"63334680b57f6a7f5753499b","fullname":"Roy Yam"}} 
+28.9.2022, 12:43:43 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: bwQ-S4TC8-z147juAAAN] 
+28.9.2022, 12:51:47 - INFO - Socket disconnected [id: bwQ-S4TC8-z147juAAAN] 
+28.9.2022, 12:51:49 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:51:49 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:51:49 - INFO - New connected socket [id: A6jHkTHo6DzhBjNUAAAP] 
+28.9.2022, 12:51:49 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: A6jHkTHo6DzhBjNUAAAP] 
+28.9.2022, 12:55:31 - INFO - Socket disconnected [id: A6jHkTHo6DzhBjNUAAAP] 
+28.9.2022, 12:55:32 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:55:32 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:55:32 - INFO - New connected socket [id: rB1YrhjqwhL7uWtCAAAR] 
+28.9.2022, 12:55:32 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: rB1YrhjqwhL7uWtCAAAR] 
+28.9.2022, 12:58:47 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 12:58:47 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 14:16:45 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 14:16:45 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 16:25:45 - INFO - Socket disconnected [id: rB1YrhjqwhL7uWtCAAAR] 
+28.9.2022, 16:25:46 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 16:25:46 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 16:25:46 - INFO - New connected socket [id: 8pQBsyEkNYauCNdFAAAT] 
+28.9.2022, 16:25:46 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: 8pQBsyEkNYauCNdFAAAT] 
+28.9.2022, 16:25:57 - INFO - Socket disconnected [id: 8pQBsyEkNYauCNdFAAAT] 
+28.9.2022, 16:25:58 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 16:25:58 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 16:25:58 - INFO - New connected socket [id: QmiKQUEEPQZ45SB2AAAV] 
+28.9.2022, 16:25:58 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: QmiKQUEEPQZ45SB2AAAV] 
+28.9.2022, 16:26:25 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 16:26:25 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 16:31:06 - INFO - Socket disconnected [id: QmiKQUEEPQZ45SB2AAAV] 
+28.9.2022, 16:31:07 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 16:31:07 - INFO - New connected socket [id: w8wXMLH37kT0YnJfAAAX] 
+28.9.2022, 16:31:07 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 16:31:07 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: w8wXMLH37kT0YnJfAAAX] 
+28.9.2022, 18:04:09 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 18:04:09 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 18:17:22 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 18:17:22 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 18:17:23 - INFO - New connected socket [id: bxG6JvdN3BYqX8P2AAAZ] 
+28.9.2022, 18:17:23 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 18:17:23 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 18:17:30 - DEBUG - auth.service - login with username: barak 
+28.9.2022, 18:17:30 - INFO - User login:  | {"_id":"63334680b57f6a7f5753499d","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+28.9.2022, 18:17:30 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: bxG6JvdN3BYqX8P2AAAZ] 
+28.9.2022, 19:05:28 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 19:05:28 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 19:12:53 - INFO - Socket disconnected [id: bxG6JvdN3BYqX8P2AAAZ] 
+28.9.2022, 19:12:53 - INFO - Socket disconnected [id: w8wXMLH37kT0YnJfAAAX] 
+28.9.2022, 19:12:54 - INFO - New connected socket [id: 5SSM2srUDgTPvHpEAAAb] 
+28.9.2022, 19:12:55 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: 5SSM2srUDgTPvHpEAAAb] 
+28.9.2022, 19:12:55 - INFO - Socket disconnected [id: BFkY-igIpv05DgqoAAAJ] 
+28.9.2022, 19:12:55 - INFO - New connected socket [id: djg5x6xJz9uUhY_CAAAd] 
+28.9.2022, 19:12:55 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: djg5x6xJz9uUhY_CAAAd] 
+28.9.2022, 19:12:58 - INFO - New connected socket [id: syh2V8aUx3HO33DSAAAf] 
+28.9.2022, 19:12:58 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 19:12:58 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 19:19:06 - INFO - Socket disconnected [id: 5SSM2srUDgTPvHpEAAAb] 
+28.9.2022, 19:19:07 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 19:19:07 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 19:19:07 - INFO - New connected socket [id: OohtlgPIsMR-4EvhAAAh] 
+28.9.2022, 19:19:07 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: OohtlgPIsMR-4EvhAAAh] 
+28.9.2022, 19:20:49 - INFO - Socket disconnected [id: OohtlgPIsMR-4EvhAAAh] 
+28.9.2022, 19:20:50 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 19:20:50 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 19:20:50 - INFO - New connected socket [id: 3kP0nAoa5J5XwvUiAAAj] 
+28.9.2022, 19:20:50 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: 3kP0nAoa5J5XwvUiAAAj] 
+28.9.2022, 19:20:51 - INFO - Removing socket.userId for socket [id: 3kP0nAoa5J5XwvUiAAAj] 
+28.9.2022, 19:23:21 - DEBUG - auth.service - login with username: barak 
+28.9.2022, 19:23:22 - INFO - User login:  | {"_id":"63334680b57f6a7f5753499d","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+28.9.2022, 19:23:22 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: 3kP0nAoa5J5XwvUiAAAj] 
+28.9.2022, 19:25:26 - INFO - Socket disconnected [id: 3kP0nAoa5J5XwvUiAAAj] 
+28.9.2022, 19:25:26 - INFO - Socket disconnected [id: djg5x6xJz9uUhY_CAAAd] 
+28.9.2022, 19:25:26 - INFO - Socket disconnected [id: syh2V8aUx3HO33DSAAAf] 
+28.9.2022, 19:25:27 - INFO - New connected socket [id: 2HAGEHjtBqMT0ofiAAAl] 
+28.9.2022, 19:25:27 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: 2HAGEHjtBqMT0ofiAAAl] 
+28.9.2022, 19:25:28 - INFO - New connected socket [id: P-Y71xX4-ZD8NtfhAAAn] 
+28.9.2022, 19:25:28 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: P-Y71xX4-ZD8NtfhAAAn] 
+28.9.2022, 19:25:29 - INFO - New connected socket [id: u3qjRzkXpfWPKK1bAAAp] 
+28.9.2022, 19:25:29 - DEBUG - gig.controller: Getting Gigs 
+28.9.2022, 19:25:29 - DEBUG - gig.service: Finding Gigs 
+28.9.2022, 19:27:06 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 19:27:06 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+28.9.2022, 19:53:35 - INFO - Socket disconnected [id: P-Y71xX4-ZD8NtfhAAAn] 
+28.9.2022, 19:53:36 - INFO - New connected socket [id: PveYiI4dU1iNbwmUAAAr] 
+28.9.2022, 19:53:36 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: PveYiI4dU1iNbwmUAAAr] 
+28.9.2022, 20:17:15 - INFO - Socket disconnected [id: PveYiI4dU1iNbwmUAAAr] 
+28.9.2022, 20:17:16 - INFO - New connected socket [id: 3OtbL4GaFEm9te1HAAAt] 
+28.9.2022, 20:17:17 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: 3OtbL4GaFEm9te1HAAAt] 
+28.9.2022, 21:21:02 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 21:21:02 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 21:21:04 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 21:21:04 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 21:21:06 - DEBUG - gig.service: Finding Gig (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 21:21:10 - DEBUG - {"seller":{"_id":"63334680b57f6a7f5753499b","fullname":"Roy Yam"},"buyer":{"_id":"63334680b57f6a7f5753499d","fullname":"Barak Kaldess"},"gig":{"_id":"63335a6720d49c508444327e","title":"make self portrait of anything you want","daysToMake":1,"price":7,"plan":"lineart"},"status":"pending","createdAt":1664389270958} (userId: 63334680b57f6a7f5753499d)
+28.9.2022, 21:21:11 - INFO - New order sent to 63334680b57f6a7f5753499b 
+28.9.2022, 21:21:11 - INFO - Emiting event: new-order-recieved to user: 63334680b57f6a7f5753499b socket [id: 3OtbL4GaFEm9te1HAAAt] 
+28.9.2022, 21:29:04 - INFO - Socket disconnected [id: 3OtbL4GaFEm9te1HAAAt] 
+28.9.2022, 21:29:05 - INFO - New connected socket [id: mj-Dz2M4zOtPqgbWAAAv] 
+28.9.2022, 21:29:06 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: mj-Dz2M4zOtPqgbWAAAv] 
+28.9.2022, 22:18:35 - INFO - Change Order Status 
+28.9.2022, 22:18:35 - INFO - Emiting event: on-order-changed-status to user: 63334680b57f6a7f5753499d socket [id: 2HAGEHjtBqMT0ofiAAAl] 
+29.9.2022, 0:11:30 - INFO - Server is running on port: 3030 
+29.9.2022, 0:11:30 - INFO - New connected socket [id: 0gX6YshKTf4B4paTAAAB] 
+29.9.2022, 0:11:30 - INFO - New connected socket [id: X6xk2k43RNRVQK99AAAD] 
+29.9.2022, 0:11:34 - INFO - New connected socket [id: d6xd6sm4vC0L_XYFAAAF] 
+29.9.2022, 0:12:21 - INFO - New connected socket [id: X9EvZlsHMG9zIHDpAAAH] 
+29.9.2022, 0:12:21 - DEBUG - gig.controller: Getting Gigs 
+29.9.2022, 0:12:21 - DEBUG - gig.service: Finding Gigs 
+29.9.2022, 0:12:22 - DEBUG - gig.controller: Getting Gigs 
+29.9.2022, 0:12:22 - DEBUG - gig.service: Finding Gigs 
+29.9.2022, 0:12:49 - DEBUG - auth.service - login with username: barak 
+29.9.2022, 0:12:50 - INFO - User login:  | {"_id":"63334680b57f6a7f5753499d","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png","balance":100,"level":"premium","rate":5,"isAdmin":true} 
+29.9.2022, 0:12:50 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: X9EvZlsHMG9zIHDpAAAH] 
+29.9.2022, 0:13:00 - INFO - Change Order Status 
+29.9.2022, 0:13:00 - INFO - Emiting event: on-order-changed-status to user: 63334680b57f6a7f5753499d socket [id: X9EvZlsHMG9zIHDpAAAH] 
+29.9.2022, 0:14:25 - INFO - Socket disconnected [id: d6xd6sm4vC0L_XYFAAAF] 
+29.9.2022, 0:14:27 - INFO - New connected socket [id: sn4e-5RfjS0_n30_AAAJ] 
+29.9.2022, 0:14:27 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: sn4e-5RfjS0_n30_AAAJ] 
+29.9.2022, 0:14:36 - INFO - Change Order Status 
+29.9.2022, 0:14:36 - INFO - Emiting event: on-order-changed-status to user: 63334680b57f6a7f5753499b socket [id: sn4e-5RfjS0_n30_AAAJ] 
+29.9.2022, 0:15:22 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:15:22 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:15:25 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:15:25 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:15:26 - DEBUG - gig.service: Finding Gig (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:16:04 - DEBUG - {"seller":{"_id":"63334680b57f6a7f5753499b","fullname":"Roy Yam"},"buyer":{"_id":"63334680b57f6a7f5753499d","fullname":"Barak Kaldess"},"gig":{"_id":"63335a6720d49c508444327e","title":"make self portrait of anything you want","daysToMake":1,"price":7,"plan":"lineart"},"status":"pending","createdAt":1664399764157} (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:16:04 - INFO - New order sent to 63334680b57f6a7f5753499b 
+29.9.2022, 0:16:04 - INFO - Emiting event: new-order-recieved to user: 63334680b57f6a7f5753499b socket [id: sn4e-5RfjS0_n30_AAAJ] 
+29.9.2022, 0:17:31 - INFO - Change Order Status 
+29.9.2022, 0:17:31 - INFO - Emiting event: on-order-changed-status to user: 63334680b57f6a7f5753499d socket [id: X9EvZlsHMG9zIHDpAAAH] 
+29.9.2022, 0:18:01 - INFO - Change Order Status 
+29.9.2022, 0:18:01 - INFO - Emiting event: on-order-changed-status to user: 63334680b57f6a7f5753499d socket [id: X9EvZlsHMG9zIHDpAAAH] 
+29.9.2022, 0:18:17 - INFO - Change Order Status 
+29.9.2022, 0:18:17 - INFO - Emiting event: on-order-changed-status to user: 63334680b57f6a7f5753499b socket [id: sn4e-5RfjS0_n30_AAAJ] 
+29.9.2022, 0:21:49 - INFO - Socket disconnected [id: X9EvZlsHMG9zIHDpAAAH] 
+29.9.2022, 0:21:49 - INFO - New connected socket [id: mgxLpncczLNODuXpAAAL] 
+29.9.2022, 0:21:50 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: mgxLpncczLNODuXpAAAL] 
+29.9.2022, 0:28:33 - INFO - Socket disconnected [id: 0gX6YshKTf4B4paTAAAB] 
+29.9.2022, 0:28:49 - INFO - Socket disconnected [id: mgxLpncczLNODuXpAAAL] 
+29.9.2022, 0:30:30 - INFO - Socket disconnected [id: X6xk2k43RNRVQK99AAAD] 
+29.9.2022, 0:30:31 - INFO - New connected socket [id: 98PiKS8zHFFKZBOSAAAN] 
+29.9.2022, 0:30:31 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: 98PiKS8zHFFKZBOSAAAN] 
+29.9.2022, 0:33:08 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:33:08 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:33:10 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:33:10 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:33:11 - DEBUG - gig.service: Finding Gig (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:33:14 - DEBUG - {"seller":{"_id":"63334680b57f6a7f5753499b","fullname":"Roy Yam"},"buyer":{"_id":"63334680b57f6a7f5753499d","fullname":"Barak Kaldess"},"gig":{"_id":"63335a6720d49c508444327e","title":"make self portrait of anything you want","daysToMake":1,"price":7,"plan":"lineart"},"status":"pending","createdAt":1664400794365} (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 0:33:14 - INFO - New order sent to 63334680b57f6a7f5753499b 
+29.9.2022, 0:33:14 - INFO - Emiting event: new-order-recieved to user: 63334680b57f6a7f5753499b socket [id: sn4e-5RfjS0_n30_AAAJ] 
+29.9.2022, 0:38:40 - INFO - Socket disconnected [id: 98PiKS8zHFFKZBOSAAAN] 
+29.9.2022, 0:38:41 - INFO - New connected socket [id: 5_iibRS8Wpxga1dxAAAP] 
+29.9.2022, 0:38:41 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: 5_iibRS8Wpxga1dxAAAP] 
+29.9.2022, 0:39:07 - INFO - Socket disconnected [id: sn4e-5RfjS0_n30_AAAJ] 
+29.9.2022, 0:39:08 - INFO - New connected socket [id: fpZXXFpaoDRYIZqkAAAR] 
+29.9.2022, 0:39:08 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: fpZXXFpaoDRYIZqkAAAR] 
+29.9.2022, 0:42:16 - INFO - Socket disconnected [id: 5_iibRS8Wpxga1dxAAAP] 
+29.9.2022, 0:42:17 - INFO - New connected socket [id: 5Ughytgb0XprOEJDAAAT] 
+29.9.2022, 0:42:17 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: 5Ughytgb0XprOEJDAAAT] 
+29.9.2022, 0:53:21 - INFO - Socket disconnected [id: 5Ughytgb0XprOEJDAAAT] 
+29.9.2022, 0:53:22 - INFO - New connected socket [id: z2zNjRIb8gleMZtWAAAV] 
+29.9.2022, 0:53:22 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: z2zNjRIb8gleMZtWAAAV] 
+29.9.2022, 1:00:17 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 1:00:17 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 1:00:17 - INFO - New connected socket [id: lDJyIznL2fHsCBe4AAAX] 
+29.9.2022, 1:00:17 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 1:00:17 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 1:00:21 - DEBUG - auth.service - login with username: roy (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 1:00:21 - INFO - User login:  | {"_id":"63334680b57f6a7f5753499b","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"basic","rate":5,"balance":100,"isAdmin":true,"userToSave":{"_id":"63334680b57f6a7f5753499b","fullname":"Roy Yam"}} (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 1:00:21 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: lDJyIznL2fHsCBe4AAAX] 
+29.9.2022, 1:01:24 - INFO - Socket disconnected [id: lDJyIznL2fHsCBe4AAAX] 
+29.9.2022, 1:09:58 - INFO - New connected socket [id: pXj2cNSVSaylIZjoAAAZ] 
+29.9.2022, 1:09:58 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 1:09:58 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 1:11:07 - DEBUG - auth.service - login with username: barak (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 1:11:07 - INFO - User login:  | {"_id":"63334680b57f6a7f5753499d","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png","balance":100,"level":"premium","rate":5,"isAdmin":true} (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 1:11:07 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: pXj2cNSVSaylIZjoAAAZ] 
+29.9.2022, 1:11:16 - INFO - Emiting event: on-order-changed-status to user: 63334680b57f6a7f5753499d socket [id: z2zNjRIb8gleMZtWAAAV] 
+29.9.2022, 1:11:16 - INFO - Change Order Status 
+29.9.2022, 1:11:23 - INFO - Socket disconnected [id: pXj2cNSVSaylIZjoAAAZ] 
+29.9.2022, 1:11:24 - INFO - New connected socket [id: kNTrGArj_sP8S_6NAAAb] 
+29.9.2022, 1:11:24 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: kNTrGArj_sP8S_6NAAAb] 
+29.9.2022, 1:11:30 - INFO - Change Order Status 
+29.9.2022, 1:11:30 - INFO - Emiting event: on-order-changed-status to user: 63334680b57f6a7f5753499d socket [id: z2zNjRIb8gleMZtWAAAV] 
+29.9.2022, 1:11:33 - INFO - Socket disconnected [id: z2zNjRIb8gleMZtWAAAV] 
+29.9.2022, 1:11:34 - INFO - Socket disconnected [id: kNTrGArj_sP8S_6NAAAb] 
+29.9.2022, 1:11:34 - INFO - New connected socket [id: rJS26nKyRPnLBkM1AAAd] 
+29.9.2022, 1:11:34 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: rJS26nKyRPnLBkM1AAAd] 
+29.9.2022, 1:39:20 - INFO - Socket disconnected [id: rJS26nKyRPnLBkM1AAAd] 
+29.9.2022, 1:39:20 - INFO - New connected socket [id: rLyUGRvBNpwsOGzWAAAf] 
+29.9.2022, 1:39:21 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: rLyUGRvBNpwsOGzWAAAf] 
+29.9.2022, 1:40:24 - INFO - Socket disconnected [id: rLyUGRvBNpwsOGzWAAAf] 
+29.9.2022, 1:40:25 - INFO - New connected socket [id: jYyFzaJ2LpH8Nja1AAAh] 
+29.9.2022, 1:40:25 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: jYyFzaJ2LpH8Nja1AAAh] 
+29.9.2022, 1:40:29 - INFO - Socket disconnected [id: jYyFzaJ2LpH8Nja1AAAh] 
+29.9.2022, 1:40:30 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 1:40:30 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 1:40:30 - INFO - New connected socket [id: cAiUnGeumDTk3hFKAAAj] 
+29.9.2022, 1:40:30 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: cAiUnGeumDTk3hFKAAAj] 
+29.9.2022, 1:40:33 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 1:40:33 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 1:40:39 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 1:40:39 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 1:41:32 - INFO - Socket disconnected [id: cAiUnGeumDTk3hFKAAAj] 
+29.9.2022, 1:41:33 - INFO - New connected socket [id: RYR0CNrXFGh2KhZTAAAl] 
+29.9.2022, 1:41:33 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: RYR0CNrXFGh2KhZTAAAl] 
+29.9.2022, 2:24:48 - INFO - Socket disconnected [id: RYR0CNrXFGh2KhZTAAAl] 
+29.9.2022, 2:24:49 - INFO - New connected socket [id: NlM21Zk5VQwDeiYqAAAn] 
+29.9.2022, 2:24:49 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: NlM21Zk5VQwDeiYqAAAn] 
+29.9.2022, 2:25:24 - INFO - Socket disconnected [id: NlM21Zk5VQwDeiYqAAAn] 
+29.9.2022, 2:25:24 - INFO - New connected socket [id: 3i8HhBnaXkhIRE-_AAAp] 
+29.9.2022, 2:25:24 - INFO - Setting socket.userId = 63334680b57f6a7f5753499d for socket [id: 3i8HhBnaXkhIRE-_AAAp] 
+29.9.2022, 2:25:27 - INFO - Socket disconnected [id: fpZXXFpaoDRYIZqkAAAR] 
+29.9.2022, 2:25:29 - INFO - New connected socket [id: 3B9fPnSE0bScTxoQAAAr] 
+29.9.2022, 2:25:29 - INFO - Setting socket.userId = 63334680b57f6a7f5753499b for socket [id: 3B9fPnSE0bScTxoQAAAr] 
+29.9.2022, 2:31:22 - INFO - Emiting event: on-order-changed-status to user: 63334680b57f6a7f5753499b socket [id: 3B9fPnSE0bScTxoQAAAr] 
+29.9.2022, 2:31:22 - INFO - Change Order Status 
+29.9.2022, 2:31:26 - INFO - Socket disconnected [id: 3i8HhBnaXkhIRE-_AAAp] 
+29.9.2022, 2:32:11 - INFO - Socket disconnected [id: 3B9fPnSE0bScTxoQAAAr] 
+29.9.2022, 12:21:54 - INFO - Server is running on port: 3030 
+29.9.2022, 12:22:22 - INFO - New connected socket [id: Q5lfFIXtYunl3mIkAAAB] 
+29.9.2022, 12:22:22 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 12:22:22 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 12:22:29 - DEBUG - auth.service - login with username: roy (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 12:22:29 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 12:22:29 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 12:22:30 - INFO - User login:  | {"_id":"633548985b0c006c914d80c4","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"2","rate":5,"balance":100,"isAdmin":true} (userId: 63334680b57f6a7f5753499b)
+29.9.2022, 12:22:30 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: Q5lfFIXtYunl3mIkAAAB] 
+29.9.2022, 12:25:15 - INFO - Socket disconnected [id: Q5lfFIXtYunl3mIkAAAB] 
+29.9.2022, 12:25:15 - INFO - New connected socket [id: E8JBbs_EAIQQ87CXAAAD] 
+29.9.2022, 12:25:16 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: E8JBbs_EAIQQ87CXAAAD] 
+29.9.2022, 12:28:39 - DEBUG - gig.controller: Getting Gigs 
+29.9.2022, 12:28:39 - DEBUG - gig.service: Finding Gigs 
+29.9.2022, 12:28:39 - INFO - New connected socket [id: W0RHLgpNWIieiagBAAAF] 
+29.9.2022, 12:28:39 - DEBUG - gig.service: Finding Gigs 
+29.9.2022, 12:28:39 - DEBUG - gig.controller: Getting Gigs 
+29.9.2022, 12:28:44 - DEBUG - auth.service - login with username: barak 
+29.9.2022, 12:28:45 - INFO - User login:  | {"_id":"633548985b0c006c914d80c6","username":"barak","fullname":"Barak Kaldess","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663842757/Fiverr-Sprint-4/imgs/saillor_barak-square_zrgmkh.png","balance":100,"level":"2","rate":5,"isAdmin":true} 
+29.9.2022, 12:28:45 - INFO - Setting socket.userId = 633548985b0c006c914d80c6 for socket [id: W0RHLgpNWIieiagBAAAF] 
+29.9.2022, 12:28:48 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c6)
+29.9.2022, 12:28:48 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c6)
+29.9.2022, 12:28:54 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c6)
+29.9.2022, 12:28:54 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c6)
+29.9.2022, 12:29:01 - DEBUG - gig.service: Finding Gig (userId: 633548985b0c006c914d80c6)
+29.9.2022, 12:29:03 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c6)
+29.9.2022, 12:29:03 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c6)
+29.9.2022, 12:29:04 - DEBUG - gig.service: Finding Gig (userId: 633548985b0c006c914d80c6)
+29.9.2022, 12:29:06 - DEBUG - {"seller":{"_id":"63334680b57f6a7f5753499b","fullname":"Roy Yam"},"buyer":{"_id":"633548985b0c006c914d80c6","fullname":"Barak Kaldess"},"gig":{"_id":"63335a6720d49c508444327e","title":"make self portrait of anything you want","daysToMake":1,"price":10,"plan":"BRONZE"},"status":"pending","createdAt":1664443746648} (userId: 633548985b0c006c914d80c6)
+29.9.2022, 12:29:06 - INFO - New order sent to 63334680b57f6a7f5753499b 
+29.9.2022, 12:29:06 - INFO - No active socket for user: 63334680b57f6a7f5753499b 
+29.9.2022, 12:32:46 - INFO - Socket disconnected [id: E8JBbs_EAIQQ87CXAAAD] 
+29.9.2022, 12:33:36 - INFO - Socket disconnected [id: W0RHLgpNWIieiagBAAAF] 
+29.9.2022, 16:15:48 - INFO - Server is running on port: 3030 
+29.9.2022, 16:17:19 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 16:17:19 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 16:17:20 - INFO - New connected socket [id: pu78IMpLoTgsAVj4AAAB] 
+29.9.2022, 16:17:20 - DEBUG - gig.controller: Getting Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 16:17:20 - DEBUG - gig.service: Finding Gigs (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 16:17:27 - DEBUG - auth.service - login with username: roy (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 16:17:27 - INFO - User login:  | {"_id":"633548985b0c006c914d80c4","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"2","rate":5,"balance":100,"isAdmin":true} (userId: 63334680b57f6a7f5753499d)
+29.9.2022, 16:17:27 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: pu78IMpLoTgsAVj4AAAB] 
+29.9.2022, 16:18:47 - INFO - Socket disconnected [id: pu78IMpLoTgsAVj4AAAB] 
+29.9.2022, 16:19:23 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+29.9.2022, 16:19:23 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+29.9.2022, 16:19:23 - INFO - New connected socket [id: jTy34L0uVXAJgtNOAAAD] 
+29.9.2022, 16:19:23 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+29.9.2022, 16:19:23 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+29.9.2022, 16:19:40 - DEBUG - auth.service - login with username: roy (userId: 633548985b0c006c914d80c4)
+29.9.2022, 16:19:41 - INFO - User login:  | {"_id":"633548985b0c006c914d80c4","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"2","rate":5,"balance":100,"isAdmin":true} (userId: 633548985b0c006c914d80c4)
+29.9.2022, 16:19:41 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: jTy34L0uVXAJgtNOAAAD] 
+29.9.2022, 16:42:21 - INFO - Socket disconnected [id: jTy34L0uVXAJgtNOAAAD] 
+30.9.2022, 14:36:11 - INFO - Server is running on port: 3030 
+30.9.2022, 14:36:32 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:36:32 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:36:32 - INFO - New connected socket [id: KKahQmBHQ5__2XhhAAAB] 
+30.9.2022, 14:36:33 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:36:33 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:36:46 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:36:46 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:36:52 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:36:52 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:37:52 - DEBUG - auth.service - login with username: roy (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:37:53 - INFO - User login:  | {"_id":"633548985b0c006c914d80c4","username":"roy","fullname":"Roy Yam","imgUrl":"https://res.cloudinary.com/dalkffrhf/image/upload/v1663717179/Fiverr-Sprint-4/imgs/focus_v56l9o.jpg","level":"2","rate":5,"balance":100,"isAdmin":true} (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:37:53 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: KKahQmBHQ5__2XhhAAAB] 
+30.9.2022, 14:37:54 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:37:54 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:41:29 - INFO - Socket disconnected [id: KKahQmBHQ5__2XhhAAAB] 
+30.9.2022, 14:41:30 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:41:30 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:41:30 - INFO - New connected socket [id: 1SLv01PHwUBl8aMLAAAD] 
+30.9.2022, 14:41:30 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: 1SLv01PHwUBl8aMLAAAD] 
+30.9.2022, 14:41:51 - INFO - Socket disconnected [id: 1SLv01PHwUBl8aMLAAAD] 
+30.9.2022, 14:41:53 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:41:53 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:41:53 - INFO - New connected socket [id: f34VRveg3ETQ-JOwAAAF] 
+30.9.2022, 14:41:53 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: f34VRveg3ETQ-JOwAAAF] 
+30.9.2022, 14:42:37 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:42:37 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:43:01 - INFO - Socket disconnected [id: f34VRveg3ETQ-JOwAAAF] 
+30.9.2022, 14:43:02 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:43:02 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:43:03 - INFO - New connected socket [id: G_r8BPdtOQBJ399HAAAH] 
+30.9.2022, 14:43:03 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: G_r8BPdtOQBJ399HAAAH] 
+30.9.2022, 14:43:50 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:43:50 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:43:53 - INFO - Socket disconnected [id: G_r8BPdtOQBJ399HAAAH] 
+30.9.2022, 14:43:54 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:43:54 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:43:54 - INFO - New connected socket [id: 3a3NGWGlz_mpJ1sEAAAJ] 
+30.9.2022, 14:43:54 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: 3a3NGWGlz_mpJ1sEAAAJ] 
+30.9.2022, 14:44:35 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:44:35 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:48:00 - INFO - Socket disconnected [id: 3a3NGWGlz_mpJ1sEAAAJ] 
+30.9.2022, 14:48:01 - INFO - New connected socket [id: omdPG1KZqdKSyhEgAAAL] 
+30.9.2022, 14:48:01 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:48:01 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:48:01 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: omdPG1KZqdKSyhEgAAAL] 
+30.9.2022, 14:49:19 - INFO - Socket disconnected [id: omdPG1KZqdKSyhEgAAAL] 
+30.9.2022, 14:49:20 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:49:20 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:49:20 - INFO - New connected socket [id: EhvUw1I3EiSdJHadAAAN] 
+30.9.2022, 14:49:21 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: EhvUw1I3EiSdJHadAAAN] 
+30.9.2022, 14:49:23 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:49:23 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:49:27 - INFO - Socket disconnected [id: EhvUw1I3EiSdJHadAAAN] 
+30.9.2022, 14:49:27 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:49:27 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:49:27 - INFO - New connected socket [id: GTF0HrLIKGB62tF9AAAP] 
+30.9.2022, 14:49:27 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: GTF0HrLIKGB62tF9AAAP] 
+30.9.2022, 14:51:57 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:51:57 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:52:10 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:52:10 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:52:32 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:52:32 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:52:57 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:52:57 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:54:05 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 14:54:05 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 15:32:23 - INFO - Socket disconnected [id: GTF0HrLIKGB62tF9AAAP] 
+30.9.2022, 15:32:24 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 15:32:24 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 15:32:24 - INFO - New connected socket [id: uTsJtKOl-enSnnAMAAAR] 
+30.9.2022, 15:32:24 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: uTsJtKOl-enSnnAMAAAR] 
+30.9.2022, 15:36:51 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 15:36:51 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 15:43:35 - INFO - Removing socket.userId for socket [id: uTsJtKOl-enSnnAMAAAR] 
+30.9.2022, 15:43:43 - DEBUG - auth.service - login with username: undefined 
+30.9.2022, 15:43:43 - ERROR - auth.controller: Failed to Login Invalid username or password 
+30.9.2022, 15:43:43 - INFO - Socket disconnected [id: uTsJtKOl-enSnnAMAAAR] 
+30.9.2022, 15:43:44 - DEBUG - gig.controller: Getting Gigs 
+30.9.2022, 15:43:44 - DEBUG - gig.service: Finding Gigs 
+30.9.2022, 15:43:44 - DEBUG - gig.controller: Getting Gigs 
+30.9.2022, 15:43:44 - DEBUG - gig.service: Finding Gigs 
+30.9.2022, 15:43:44 - INFO - New connected socket [id: PKJVGl0DWCWbxoNUAAAT] 
+30.9.2022, 15:48:05 - DEBUG - auth.service - login with username: undefined 
+30.9.2022, 15:48:05 - ERROR - auth.controller: Failed to Login Invalid username or password 
+30.9.2022, 15:48:05 - INFO - Socket disconnected [id: PKJVGl0DWCWbxoNUAAAT] 
+30.9.2022, 15:48:06 - DEBUG - gig.controller: Getting Gigs 
+30.9.2022, 15:48:06 - DEBUG - gig.service: Finding Gigs 
+30.9.2022, 15:48:06 - INFO - New connected socket [id: -PRWMreVZVjFPhiiAAAV] 
+30.9.2022, 15:48:07 - DEBUG - gig.controller: Getting Gigs 
+30.9.2022, 15:48:07 - DEBUG - gig.service: Finding Gigs 
+30.9.2022, 15:58:13 - INFO - Socket disconnected [id: -PRWMreVZVjFPhiiAAAV] 
+30.9.2022, 15:58:14 - DEBUG - gig.controller: Getting Gigs 
+30.9.2022, 15:58:14 - DEBUG - gig.service: Finding Gigs 
+30.9.2022, 15:58:14 - INFO - New connected socket [id: 4HPamuVFai2bHgjkAAAX] 
+30.9.2022, 15:59:33 - INFO - Socket disconnected [id: 4HPamuVFai2bHgjkAAAX] 
+30.9.2022, 15:59:34 - DEBUG - gig.controller: Getting Gigs 
+30.9.2022, 15:59:34 - DEBUG - gig.service: Finding Gigs 
+30.9.2022, 15:59:34 - INFO - New connected socket [id: s-k-yO02l1lYlMb7AAAZ] 
+30.9.2022, 16:00:38 - DEBUG - auth.service - login with username: roy 
+30.9.2022, 16:00:39 - INFO - User login:  | {"_id":"633548985b0c006c914d80c4","username":"roy","fullname":"roy","imgUrl":"http://res.cloudinary.com/ibarak/image/upload/v1664541949/test1/z70c8muzrcrcgepseqzk.jpg","level":"2","rate":5,"balance":100,"isAdmin":true} 
+30.9.2022, 16:00:39 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: s-k-yO02l1lYlMb7AAAZ] 
+30.9.2022, 16:00:40 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 16:00:40 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 16:48:07 - INFO - Socket disconnected [id: s-k-yO02l1lYlMb7AAAZ] 
+30.9.2022, 16:48:08 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 16:48:08 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 16:48:08 - INFO - New connected socket [id: AclVCNk1qSolzlp5AAAb] 
+30.9.2022, 16:48:08 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: AclVCNk1qSolzlp5AAAb] 
+30.9.2022, 16:54:30 - INFO - Socket disconnected [id: AclVCNk1qSolzlp5AAAb] 
+30.9.2022, 16:54:32 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 16:54:32 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 16:54:32 - INFO - New connected socket [id: FB2AAVmwbGTSqHyuAAAd] 
+30.9.2022, 16:54:32 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: FB2AAVmwbGTSqHyuAAAd] 
+30.9.2022, 16:58:14 - INFO - Socket disconnected [id: FB2AAVmwbGTSqHyuAAAd] 
+30.9.2022, 16:58:15 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 16:58:15 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 16:58:15 - INFO - New connected socket [id: PO_GOIVZmuJ2wRdBAAAf] 
+30.9.2022, 16:58:15 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: PO_GOIVZmuJ2wRdBAAAf] 
+30.9.2022, 17:05:46 - INFO - Socket disconnected [id: PO_GOIVZmuJ2wRdBAAAf] 
+30.9.2022, 17:05:48 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:05:48 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:05:48 - INFO - New connected socket [id: 8aOBvxCb6UBFnOpkAAAh] 
+30.9.2022, 17:05:48 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: 8aOBvxCb6UBFnOpkAAAh] 
+30.9.2022, 17:05:53 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:05:53 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:19:26 - INFO - Socket disconnected [id: 8aOBvxCb6UBFnOpkAAAh] 
+30.9.2022, 17:19:27 - INFO - New connected socket [id: mMqJtVi5JmIl-0BGAAAj] 
+30.9.2022, 17:19:27 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:19:27 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:19:28 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: mMqJtVi5JmIl-0BGAAAj] 
+30.9.2022, 17:28:29 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:28:29 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:29:16 - INFO - Socket disconnected [id: mMqJtVi5JmIl-0BGAAAj] 
+30.9.2022, 17:29:17 - INFO - New connected socket [id: QZ-FPMkReZ27eQsBAAAl] 
+30.9.2022, 17:29:17 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:29:17 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:29:18 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: QZ-FPMkReZ27eQsBAAAl] 
+30.9.2022, 17:35:10 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:35:10 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+30.9.2022, 17:36:17 - INFO - Removing socket.userId for socket [id: QZ-FPMkReZ27eQsBAAAl] 
+30.9.2022, 17:36:17 - DEBUG - gig.controller: Getting Gigs 
+30.9.2022, 17:36:17 - DEBUG - gig.service: Finding Gigs 
+30.9.2022, 17:36:51 - DEBUG - gig.controller: Getting Gigs 
+30.9.2022, 17:36:51 - DEBUG - gig.service: Finding Gigs 
+30.9.2022, 17:45:34 - DEBUG - gig.service: Finding Gigs 
+30.9.2022, 17:45:34 - DEBUG - gig.controller: Getting Gigs 
+30.9.2022, 17:55:54 - INFO - Socket disconnected [id: QZ-FPMkReZ27eQsBAAAl] 
+30.9.2022, 17:55:55 - INFO - New connected socket [id: sz7n0zUK2BtKI3q0AAAn] 
+30.9.2022, 17:55:55 - DEBUG - gig.controller: Getting Gigs 
+30.9.2022, 17:55:55 - DEBUG - gig.service: Finding Gigs 
+30.9.2022, 17:57:34 - DEBUG - gig.service: Finding Gig 
+30.9.2022, 18:34:36 - DEBUG - gig.service: Finding Gig 
+30.9.2022, 18:45:00 - DEBUG - gig.service: Finding Gig 
+30.9.2022, 18:45:18 - DEBUG - gig.service: Finding Gig 
+30.9.2022, 18:51:24 - DEBUG - gig.service: Finding Gig 
+30.9.2022, 18:52:27 - DEBUG - gig.service: Finding Gig 
+30.9.2022, 19:00:01 - INFO - Socket disconnected [id: sz7n0zUK2BtKI3q0AAAn] 
+30.9.2022, 19:00:02 - INFO - New connected socket [id: OaCLsCWwZrv33B7dAAAp] 
+30.9.2022, 19:00:02 - DEBUG - gig.service: Finding Gig 
+1.10.2022, 0:07:52 - INFO - Server is running on port: 3030 
+1.10.2022, 0:07:52 - INFO - New connected socket [id: mixXH3Blh8UePkfmAAAB] 
+1.10.2022, 0:08:12 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+1.10.2022, 0:08:12 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+1.10.2022, 0:08:12 - INFO - New connected socket [id: Z41GFo3SdxinHh0RAAAD] 
+1.10.2022, 0:08:13 - INFO - Socket disconnected [id: Z41GFo3SdxinHh0RAAAD] 
+1.10.2022, 0:08:26 - INFO - Socket disconnected [id: mixXH3Blh8UePkfmAAAB] 
+1.10.2022, 0:08:28 - DEBUG - gig.controller: Getting Gigs 
+1.10.2022, 0:08:28 - DEBUG - gig.service: Finding Gigs 
+1.10.2022, 0:08:28 - INFO - New connected socket [id: 8zoqTCXauwxPN83hAAAF] 
+1.10.2022, 0:09:27 - DEBUG - auth.service - login with username: roy 
+1.10.2022, 0:09:27 - INFO - User login:  | {"_id":"633548985b0c006c914d80c4","username":"roy","fullname":"roy","imgUrl":"http://res.cloudinary.com/ibarak/image/upload/v1664541949/test1/z70c8muzrcrcgepseqzk.jpg","level":"2","rate":5,"balance":100,"isAdmin":true} 
+1.10.2022, 0:09:27 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: 8zoqTCXauwxPN83hAAAF] 
+1.10.2022, 0:09:34 - INFO - Socket disconnected [id: 8zoqTCXauwxPN83hAAAF] 
+1.10.2022, 0:09:35 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+1.10.2022, 0:09:35 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+1.10.2022, 0:09:35 - INFO - New connected socket [id: MJlc6aBRlVowpu2EAAAH] 
+1.10.2022, 0:09:35 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: MJlc6aBRlVowpu2EAAAH] 
+1.10.2022, 0:09:38 - DEBUG - gig.service: Finding Gig (userId: 633548985b0c006c914d80c4)
+1.10.2022, 2:14:24 - INFO - Socket disconnected [id: MJlc6aBRlVowpu2EAAAH] 
+1.10.2022, 2:14:25 - INFO - New connected socket [id: rPQ9yNEjHBYNMeC_AAAJ] 
+1.10.2022, 2:14:25 - DEBUG - gig.service: Finding Gig (userId: 633548985b0c006c914d80c4)
+1.10.2022, 2:14:26 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: rPQ9yNEjHBYNMeC_AAAJ] 
+1.10.2022, 2:18:25 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+1.10.2022, 2:18:25 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+1.10.2022, 2:18:42 - DEBUG - gig.service: Finding Gig (userId: 633548985b0c006c914d80c4)
+1.10.2022, 2:20:52 - INFO - Socket disconnected [id: rPQ9yNEjHBYNMeC_AAAJ] 
+1.10.2022, 2:20:53 - INFO - New connected socket [id: 3UMK9VO3shLCBp1XAAAL] 
+1.10.2022, 2:20:53 - DEBUG - gig.service: Finding Gig (userId: 633548985b0c006c914d80c4)
+1.10.2022, 2:20:53 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: 3UMK9VO3shLCBp1XAAAL] 
+1.10.2022, 4:10:14 - INFO - Change Order Status 
+1.10.2022, 4:10:14 - INFO - No active socket for user: 633548985b0c006c914d80c6 
+1.10.2022, 4:12:47 - INFO - Socket disconnected [id: 3UMK9VO3shLCBp1XAAAL] 
+1.10.2022, 4:12:48 - INFO - New connected socket [id: SbguabFgPt0yi_SbAAAN] 
+1.10.2022, 4:12:48 - INFO - Setting socket.userId = 633548985b0c006c914d80c4 for socket [id: SbguabFgPt0yi_SbAAAN] 
+1.10.2022, 4:13:02 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+1.10.2022, 4:13:02 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+1.10.2022, 4:14:49 - DEBUG - gig.controller: Getting Gigs (userId: 633548985b0c006c914d80c4)
+1.10.2022, 4:14:49 - DEBUG - gig.service: Finding Gigs (userId: 633548985b0c006c914d80c4)
+1.10.2022, 4:14:53 - DEBUG - gig.service: Finding Gig (userId: 633548985b0c006c914d80c4)
