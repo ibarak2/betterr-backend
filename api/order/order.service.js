@@ -87,7 +87,7 @@ async function analytics() {
 
         const userCompletedOrders = orders.filter(order => order.status === 'completed')
         const allEarnings = userCompletedOrders.reduce((total, obj) => obj.gig.price + total, 0)
-        const avgSellingPrice = (allEarnings / userCompletedOrders.length).toFixed(2)
+        const avgSellingPrice = (allEarnings / userCompletedOrders.length)
         const ordersCompleted = userCompletedOrders.length
         const ordersThisMonth = userCompletedOrders.filter(order => order.createdAt >= (Date.now() - 1000 * 60 * 60 * 24 * 31))
         const earningsThisMonth = ordersThisMonth.reduce((total, obj) => obj.gig.price + total, 0)

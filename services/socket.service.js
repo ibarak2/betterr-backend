@@ -10,7 +10,7 @@ function setupSocketAPI(http) {
   })
 
   gIo.on("connection", (socket) => {
-    logger.info(`New connected socket [id: ${socket.id}]`)
+    logger.info(`New connected socket [socket.id: ${socket.id}]`)
     socket.on("disconnect", () => {
       logger.info(`Socket disconnected [id: ${socket.id}]`)
     })
@@ -29,7 +29,7 @@ function setupSocketAPI(http) {
       logger.info(
         `New chat msg from socket [id: ${socket.id}], emitting to room ${socket.myRoom}`
       )
-      
+
       emitToUser({ type: "on-sent-msg", data: miniTxt.newMsg, userId: miniTxt.userId })
     })
 
@@ -41,9 +41,9 @@ function setupSocketAPI(http) {
     })
 
     socket.on("set-user-socket", (userId) => {
-      // console.log("my loggedin");
+      console.log(`Setting socket.userId = ${userId} for socket [socket.id: ${socket.id}]`);
       logger.info(
-        `Setting socket.userId = ${userId} for socket [id: ${socket.id}]`
+        `Setting socket.userId = ${userId} for socket [socket.id: ${socket.id}]`
       )
       socket.userId = userId
     })

@@ -2,6 +2,7 @@ const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
 const ObjectId = require('mongodb').ObjectId
 const asyncLocalStorage = require('../../services/als.service')
+const { getStore } = require('../../services/als.service')
 
 
 async function query(filterBy) {
@@ -47,7 +48,6 @@ async function query(filterBy) {
                 return gig.owner._id === filterBy.owner
             })
         }
-        // console.log(gigs)
 
         return gigs
     } catch (err) {
@@ -97,10 +97,21 @@ async function update(gig) {
     try {
         logger.debug('gig.service: Updating Gig')
 
+        let updatedGig
         const id = ObjectId(gig._id)
         delete gig._id
+
+        const { loggedinUser } = asyncLocalStorage.getStore()
+
         const collection = await dbService.getCollection('gig')
-        const updatedGig = await collection.updateOne({ _id: id }, { $set: { ...gig } })
+        if (loggedinUser.isAdmin) {
+            updatedGig = await collection.updateOne({ _id: id }, { $set: { ...gig } })
+        }
+        if (!loggedinUser.isAdmin) {
+            updatedGig = await collection.updateOne({ _id: id, "owner._id": loggedinUser._id }, { $set: { ...gig } })
+        }
+
+
 
         return updatedGig
     } catch (err) {
@@ -113,8 +124,18 @@ async function remove(gigId) {
     try {
         logger.debug(`gig.service: Removing Gig ${gigId}`)
 
+        const criteria = { _id: ObjectId(gigId) }
+
+        const { loggedinUser } = asyncLocalStorage.getStore()
+
         const collection = await dbService.getCollection('gig')
-        await collection.deleteOne({ _id: ObjectId(gigId) })
+        if (loggedinUser.isAdmin) {
+            await collection.deleteOne(criteria)
+        }
+        if (!loggedinUser.isAdmin) {
+            await collection.deleteOne({ _id: ObjectId(gigId), "owner._id": loggedinUser._id })
+        }
+        // criteria["owner._id"] = ObjectId(loggedinUser._id)
 
         return gigId
     } catch {
