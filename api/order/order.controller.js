@@ -1,13 +1,10 @@
 const logger = require("../../services/logger.service")
-const authService = require("../auth/auth.service")
-// const userService = require('../user/user.service')
-const socketService = require("../../services/socket.service")
 const orderService = require("./order.service.js")
 
 async function getOrdersById(req, res) {
   try {
     const filter = JSON.parse(req.query.params)
-    // console.log("filter", filter);
+
     const orders = await orderService.queryByRole(filter)
     res.json(orders)
   } catch (err) {
@@ -19,6 +16,7 @@ async function getOrdersById(req, res) {
 async function addOrder(req, res) {
   try {
     const order = req.body
+
     const addedOrder = await orderService.add(order)
     res.json(addedOrder)
   } catch (err) {
@@ -27,23 +25,11 @@ async function addOrder(req, res) {
   }
 }
 
-async function updateOrder(req, res) {
-  try {
-    const order = req.body
-    const updatedOrder = await orderService.update(order)
-    res.json(updatedOrder)
-  } catch (err) {
-    logger.error("order.controller: Failed to update orders", err)
-    res.status(500).send({ err: "Failed to update orders" })
-  }
-}
-
 async function updateOrderStatus(req, res) {
   try {
     const gigId = req.params.id
     const status = req.body
-    // console.log(gigId)
-    // console.log(status.status)
+
     const updatedOrder = await orderService.updateStatus(gigId, status.status)
     res.json(updatedOrder)
   } catch (err) {
@@ -65,7 +51,6 @@ async function getAnalytics(req, res) {
 module.exports = {
   getOrdersById,
   addOrder,
-  updateOrder,
   updateOrderStatus,
   getAnalytics
 }

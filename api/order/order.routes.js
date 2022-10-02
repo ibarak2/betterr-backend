@@ -1,21 +1,18 @@
 const express = require('express')
 
-const { getOrdersById, addOrder, updateOrder, updateOrderStatus, getAnalytics } = require('./order.controller')
+const { getOrdersById, addOrder, updateOrderStatus, getAnalytics } = require('./order.controller')
 const router = express.Router()
 
-//
+// Get Orders List by User ID
 router.get('/', getOrdersById)
 
-//
+// Add new Order
 router.post('/', addOrder)
 
-//
-router.put('/:id', updateOrder)
-
-//
+// Update Order Status
 router.put('/status/:id', updateOrderStatus)
 
-// Get Analytics
+// Get Analytics Information
 router.get('/analytics', getAnalytics)
 
 

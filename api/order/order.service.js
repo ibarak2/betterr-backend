@@ -6,10 +6,8 @@ const asyncLocalStorage = require('../../services/als.service')
 
 async function queryByRole(filter) {
     try {
-
         const { loggedinUser } = asyncLocalStorage.getStore()
         const id = loggedinUser._id
-        // console.log(id);
 
         const collection = await dbService.getCollection('order')
         let orders = (filter.isBuyer) ? await collection.aggregate(
@@ -44,7 +42,6 @@ async function queryByRole(filter) {
 
 async function add(order) {
     try {
-
         order.status = 'pending'
         order.createdAt = Date.now()
         logger.debug(order)
@@ -106,14 +103,9 @@ async function analytics() {
     }
 }
 
-async function update(order) {
-
-}
-
 module.exports = {
     queryByRole,
     add,
-    update,
     updateStatus,
     analytics
 }

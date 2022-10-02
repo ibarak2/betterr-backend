@@ -2,18 +2,16 @@ const dbService = require("../../services/db.service")
 const logger = require("../../services/logger.service")
 const ObjectId = require("mongodb").ObjectId
 const asyncLocalStorage = require("../../services/als.service")
-const { getStore } = require("../../services/als.service")
 
 async function query(filterBy) {
   try {
-    logger.debug("gig.service: Finding Gigs")
 
     const criteria = {}
 
     const collection = await dbService.getCollection("gig")
     var gigs = await collection.find(criteria).toArray()
 
-    const { minPrice, maxPrice , sort , basicDaysToMake, rate, category, search } = filterBy
+    const { minPrice, maxPrice, sort, basicDaysToMake, rate, category, search } = filterBy
 
     if (category && category !== "trending") {
       gigs = gigs.filter((gig) => gig.category === category)
@@ -26,11 +24,11 @@ async function query(filterBy) {
     if (search) {
       gigs = gigs.filter((gig) => gig.title.includes(search))
     }
-    if(sort === 'new-arrival'){
-        gigs.sort((a, b) => b.createdAt - a.createdAt)
+    if (sort === 'new-arrival') {
+      gigs.sort((a, b) => b.createdAt - a.createdAt)
     }
-    if(sort === 'rating'){
-        gigs.sort((a, b) => b.owner.rate - a.owner.rate)
+    if (sort === 'rating') {
+      gigs.sort((a, b) => b.owner.rate - a.owner.rate)
     }
     if (minPrice) {
       gigs = gigs.filter((gig) => gig.plans.basicPrice >= minPrice)
@@ -61,15 +59,12 @@ async function query(filterBy) {
 
 async function getById(gigId) {
   try {
-    logger.debug(`gig.service: Finding Gig`)
-
     const collection = await dbService.getCollection("gig")
     const gig = await collection.findOneAndUpdate(
       { _id: ObjectId(gigId) },
       { $inc: { viewsCount: 1 } },
       { returnDocument: "after" }
     )
-    // console.log(gig.value);
     return gig.value
   } catch (err) {
     logger.error("gig.service: Cannot find gig: ", err)
@@ -83,12 +78,10 @@ async function add(gig) {
 
     const { loggedinUser } = asyncLocalStorage.getStore()
     delete loggedinUser.balance
-    // console.log('loggeinUser', loggedinUser);
     gig.owner = { ...loggedinUser }
     gig.reviews = []
     gig.likedByUsers = []
     gig.viewsCount = 0
-    // console.log(gig);
 
     const collection = await dbService.getCollection("gig")
     const addedGig = await collection.insertOne(gig)
@@ -102,7 +95,7 @@ async function add(gig) {
 
 async function update(gig) {
   try {
-    logger.debug("gig.service: Updating Gig")
+    logger.debug(`gig.service: Updating Gig ${gig._id}`)
 
     let updatedGig
     const id = ObjectId(gig._id)

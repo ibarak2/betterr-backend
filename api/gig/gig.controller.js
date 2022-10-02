@@ -4,10 +4,8 @@ const logger = require('../../services/logger.service')
 // Get Gigs
 async function getGigs(req, res) {
     try {
-        logger.debug('gig.controller: Getting Gigs')
         const filterBy = JSON.parse(req.query.params)
 
-        // console.log("filterBy:", filterBy);
         const gigs = await gigService.query(filterBy)
         res.json(gigs)
     } catch (err) {
@@ -20,6 +18,7 @@ async function getGigs(req, res) {
 async function getGigById(req, res) {
     try {
         const gigId = req.params.id
+
         const gig = await gigService.getById(gigId)
         res.json(gig)
     } catch (err) {
@@ -32,6 +31,7 @@ async function getGigById(req, res) {
 async function addGig(req, res) {
     try {
         const gig = req.body
+
         const addedGig = await gigService.add(gig)
         res.json(addedGig)
     } catch (err) {
@@ -44,6 +44,7 @@ async function addGig(req, res) {
 async function updateGig(req, res) {
     try {
         const gig = req.body
+
         const updatedGig = await gigService.update(gig)
         res.json(updatedGig)
     } catch (err) {
@@ -56,6 +57,7 @@ async function updateGig(req, res) {
 async function removeGig(req, res) {
     try {
         const gigId = req.params.id
+
         const removedGigId = await gigService.remove(gigId)
         res.send(removedGigId)
     } catch (err) {
@@ -64,27 +66,12 @@ async function removeGig(req, res) {
     }
 }
 
-// Get Gigs by owner
-async function getGigsByOwner(req, res) {
-    try {
-        logger.debug('gig.controller: Getting Gigs')
-        let filterBy = JSON.parse(req.query.params)
-
-        // console.log("filterBy:", filterBy)
-        const gigs = await gigService.query(filterBy)
-        res.json(gigs)
-    } catch (err) {
-        logger.error('gig.controller: Failed to get gigs', err)
-        res.status(500).send({ err: 'Failed to get gigs' })
-    }
-}
-
+// Add Review
 async function addReview(req, res) {
     try {
         const gigId = req.params.id
         const review = req.body
-        // console.log('gigId:', gigId);
-        // console.log('review:', review);
+
         const updatedGig = await gigService.updateReview(gigId, review)
         res.json(updatedGig)
     } catch (err) {
@@ -92,9 +79,6 @@ async function addReview(req, res) {
         res.status(500).send({ err: 'Failed to update gig review' })
     }
 }
-
-
-
 
 module.exports = {
     getGigs,
