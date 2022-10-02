@@ -25,20 +25,6 @@ function setupSocketAPI(http) {
       socket.join(room)
       socket.myRoom = room
     })
-    socket.on("chat-send-msg", (miniTxt) => {
-      logger.info(
-        `New chat msg from socket [id: ${socket.id}], emitting to room ${socket.myRoom}`
-      )
-
-      emitToUser({ type: "on-sent-msg", data: miniTxt.newMsg, userId: miniTxt.userId })
-    })
-
-    socket.on("user-watch", (userId) => {
-      logger.info(
-        `user-watch from socket [id: ${socket.id}], on user ${userId}`
-      )
-      socket.join("watching:" + userId)
-    })
 
     socket.on("set-user-socket", (userId) => {
       console.log(`Setting socket.userId = ${userId} for socket [socket.id: ${socket.id}]`);
