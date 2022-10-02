@@ -24,7 +24,6 @@ const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
 const gigRoutes = require('./api/gig/gig.routes')
 const orderRoutes = require('./api/order/order.routes')
-const chatRoutes = require('./api/chat/chat.routes')
 const { setupSocketAPI } = require('./services/socket.service')
 
 const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
@@ -35,7 +34,6 @@ app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/gig', gigRoutes)
 app.use('/api/order', orderRoutes)
-app.use('/api/chat', chatRoutes)
 
 setupSocketAPI(http)
 
